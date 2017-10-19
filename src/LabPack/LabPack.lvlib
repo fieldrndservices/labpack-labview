@@ -10,9 +10,14 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Build Shared Library Search Path.vi" Type="VI" URL="../Private/Build Shared Library Search Path.vi"/>
+		<Item Name="Globals.vi" Type="VI" URL="../Private/Globals.vi"/>
+		<Item Name="Load Shared Library.vi" Type="VI" URL="../Private/Load Shared Library.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Utility" Type="Folder"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
+		<Item Name="Shutdown.vi" Type="VI" URL="../Public/Shutdown.vi"/>
 		<Item Name="Writer.lvclass" Type="LVClass" URL="../Public/Writer/Writer.lvclass"/>
 	</Item>
 </Library>
