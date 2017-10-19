@@ -12,6 +12,7 @@
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Create and Destroy.vi" Type="VI" URL="../Public/Create and Destroy.vi"/>
+		<Item Name="Create and Destroy Writer.vi" Type="VI" URL="../Public/Create and Destroy Writer.vi"/>
+		<Item Name="Initialize and Shutdown.vi" Type="VI" URL="../Public/Initialize and Shutdown.vi"/>
 	</Item>
 </Library>
