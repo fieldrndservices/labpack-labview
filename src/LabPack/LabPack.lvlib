@@ -15,7 +15,12 @@
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Utility" Type="Folder"/>
+		<Item Name="Utility" Type="Folder">
+			<Item Name="Version Major.vi" Type="VI" URL="../Public/Utility/Version Major.vi"/>
+			<Item Name="Version Minor.vi" Type="VI" URL="../Public/Utility/Version Minor.vi"/>
+			<Item Name="Version Patch.vi" Type="VI" URL="../Public/Utility/Version Patch.vi"/>
+			<Item Name="Version Text.vi" Type="VI" URL="../Public/Utility/Version Text.vi"/>
+		</Item>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 		<Item Name="Shutdown.vi" Type="VI" URL="../Public/Shutdown.vi"/>
 		<Item Name="Writer.lvclass" Type="LVClass" URL="../Public/Writer/Writer.lvclass"/>
