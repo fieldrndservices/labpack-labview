@@ -18,5 +18,6 @@
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
 		<Item Name="Status Message.vi" Type="VI" URL="../Public/Status Message.vi"/>
 		<Item Name="Status.vi" Type="VI" URL="../Public/Status.vi"/>
+		<Item Name="Write i8.vi" Type="VI" URL="../Public/Write i8.vi"/>
 	</Item>
 </Library>
