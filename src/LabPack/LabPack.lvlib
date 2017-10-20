@@ -10,6 +10,8 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Build Shared Library Search Path.vi" Type="VI" URL="../Private/Build Shared Library Search Path.vi"/>
+		<Item Name="labpack-x64.dll" Type="Document" URL="../Private/labpack-x64.dll"/>
+		<Item Name="labpack.dll" Type="Document" URL="../Private/labpack.dll"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
