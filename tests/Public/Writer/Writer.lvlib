@@ -23,6 +23,7 @@
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
 		<Item Name="Status Message.vi" Type="VI" URL="../Public/Status Message.vi"/>
 		<Item Name="Status.vi" Type="VI" URL="../Public/Status.vi"/>
+		<Item Name="Write Float.vi" Type="VI" URL="../Public/Write Float.vi"/>
 		<Item Name="Write i8.vi" Type="VI" URL="../Public/Write i8.vi"/>
 		<Item Name="Write i16.vi" Type="VI" URL="../Public/Write i16.vi"/>
 		<Item Name="Write i32.vi" Type="VI" URL="../Public/Write i32.vi"/>
@@ -32,5 +33,6 @@
 		<Item Name="Write u16.vi" Type="VI" URL="../Public/Write u16.vi"/>
 		<Item Name="Write u32.vi" Type="VI" URL="../Public/Write u32.vi"/>
 		<Item Name="Write u64.vi" Type="VI" URL="../Public/Write u64.vi"/>
+		<Item Name="Write Uint.vi" Type="VI" URL="../Public/Write Uint.vi"/>
 	</Item>
 </Library>
