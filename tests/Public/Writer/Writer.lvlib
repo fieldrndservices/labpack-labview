@@ -33,6 +33,7 @@
 		<Item Name="Write i64.vi" Type="VI" URL="../Public/Write i64.vi"/>
 		<Item Name="Write Int.vi" Type="VI" URL="../Public/Write Int.vi"/>
 		<Item Name="Write Nil.vi" Type="VI" URL="../Public/Write Nil.vi"/>
+		<Item Name="Write Object Bytes.vi" Type="VI" URL="../Public/Write Object Bytes.vi"/>
 		<Item Name="Write True.vi" Type="VI" URL="../Public/Write True.vi"/>
 		<Item Name="Write u8.vi" Type="VI" URL="../Public/Write u8.vi"/>
 		<Item Name="Write u16.vi" Type="VI" URL="../Public/Write u16.vi"/>
