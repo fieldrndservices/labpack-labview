@@ -29,5 +29,6 @@
 		<Item Name="Write i64.vi" Type="VI" URL="../Public/Write i64.vi"/>
 		<Item Name="Write Int.vi" Type="VI" URL="../Public/Write Int.vi"/>
 		<Item Name="Write u8.vi" Type="VI" URL="../Public/Write u8.vi"/>
+		<Item Name="Write u16.vi" Type="VI" URL="../Public/Write u16.vi"/>
 	</Item>
 </Library>
