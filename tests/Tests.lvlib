@@ -10,6 +10,7 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
+		<Item Name="Status.lvlib" Type="Library" URL="../Public/Status/Status.lvlib"/>
 		<Item Name="Version.lvlib" Type="Library" URL="../Public/Version/Version.lvlib"/>
 		<Item Name="Writer.lvlib" Type="Library" URL="../Public/Writer/Writer.lvlib"/>
 	</Item>
