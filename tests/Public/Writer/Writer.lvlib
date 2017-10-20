@@ -31,5 +31,6 @@
 		<Item Name="Write u8.vi" Type="VI" URL="../Public/Write u8.vi"/>
 		<Item Name="Write u16.vi" Type="VI" URL="../Public/Write u16.vi"/>
 		<Item Name="Write u32.vi" Type="VI" URL="../Public/Write u32.vi"/>
+		<Item Name="Write u64.vi" Type="VI" URL="../Public/Write u64.vi"/>
 	</Item>
 </Library>
