@@ -12,5 +12,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Code.vi" Type="VI" URL="../Public/Code.vi"/>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
+		<Item Name="String.vi" Type="VI" URL="../Public/String.vi"/>
 	</Item>
 </Library>
