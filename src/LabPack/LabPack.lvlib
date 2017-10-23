@@ -12,6 +12,7 @@
 		<Item Name="Build Shared Library Search Path.vi" Type="VI" URL="../Private/Build Shared Library Search Path.vi"/>
 		<Item Name="labpack-x64.dll" Type="Document" URL="../Private/labpack-x64.dll"/>
 		<Item Name="labpack.dll" Type="Document" URL="../Private/labpack.dll"/>
+		<Item Name="Write.vi" Type="VI" URL="../Private/Write.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -27,6 +28,7 @@
 			<Item Name="Version Patch.vi" Type="VI" URL="../Public/Utility/Version Patch.vi"/>
 			<Item Name="Version Text.vi" Type="VI" URL="../Public/Utility/Version Text.vi"/>
 		</Item>
+		<Item Name="To Msgpack.vi" Type="VI" URL="../Public/To Msgpack.vi"/>
 		<Item Name="Writer.lvclass" Type="LVClass" URL="../Public/Writer/Writer.lvclass"/>
 	</Item>
 </Library>
