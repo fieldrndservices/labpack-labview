@@ -18,7 +18,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Status.ctl" Type="VI" URL="../Public/Controls/Status.ctl"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Public/Controls/Type.ctl"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Status Code.vi" Type="VI" URL="../Public/Utility/Status Code.vi"/>
