@@ -10,7 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Configs" Type="Folder"/>
+		<Item Name="Configs" Type="Folder">
+			<Item Name="LabPack.vipb" Type="Document" URL="../configs/LabPack.vipb"/>
+		</Item>
 		<Item Name="Examples" Type="Folder"/>
 		<Item Name="LabPack.lvlib" Type="Library" URL="../src/LabPack/LabPack.lvlib"/>
 		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
