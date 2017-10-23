@@ -11,11 +11,13 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Item Name="Boolean.vi" Type="VI" URL="../Public/Boolean.vi"/>
+		<Item Name="Byte Array.vi" Type="VI" URL="../Public/Byte Array.vi"/>
 		<Item Name="Cluster with a Cluster.vi" Type="VI" URL="../Public/Cluster with a Cluster.vi"/>
 		<Item Name="Cluster with an Array.vi" Type="VI" URL="../Public/Cluster with an Array.vi"/>
 		<Item Name="Double Array.vi" Type="VI" URL="../Public/Double Array.vi"/>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
 		<Item Name="Simple Cluster.vi" Type="VI" URL="../Public/Simple Cluster.vi"/>
+		<Item Name="U8 Array.vi" Type="VI" URL="../Public/U8 Array.vi"/>
 		<Item Name="Void.vi" Type="VI" URL="../Public/Void.vi"/>
 	</Item>
 </Library>
