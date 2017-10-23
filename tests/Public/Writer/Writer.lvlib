@@ -25,8 +25,10 @@
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
 		<Item Name="Status Message.vi" Type="VI" URL="../Public/Status Message.vi"/>
 		<Item Name="Status.vi" Type="VI" URL="../Public/Status.vi"/>
+		<Item Name="Write Bin.vi" Type="VI" URL="../Public/Write Bin.vi"/>
 		<Item Name="Write Bool.vi" Type="VI" URL="../Public/Write Bool.vi"/>
 		<Item Name="Write Double.vi" Type="VI" URL="../Public/Write Double.vi"/>
+		<Item Name="Write Ext.vi" Type="VI" URL="../Public/Write Ext.vi"/>
 		<Item Name="Write False.vi" Type="VI" URL="../Public/Write False.vi"/>
 		<Item Name="Write Float.vi" Type="VI" URL="../Public/Write Float.vi"/>
 		<Item Name="Write i8.vi" Type="VI" URL="../Public/Write i8.vi"/>
@@ -36,6 +38,7 @@
 		<Item Name="Write Int.vi" Type="VI" URL="../Public/Write Int.vi"/>
 		<Item Name="Write Nil.vi" Type="VI" URL="../Public/Write Nil.vi"/>
 		<Item Name="Write Object Bytes.vi" Type="VI" URL="../Public/Write Object Bytes.vi"/>
+		<Item Name="Write Str.vi" Type="VI" URL="../Public/Write Str.vi"/>
 		<Item Name="Write True.vi" Type="VI" URL="../Public/Write True.vi"/>
 		<Item Name="Write u8.vi" Type="VI" URL="../Public/Write u8.vi"/>
 		<Item Name="Write u16.vi" Type="VI" URL="../Public/Write u16.vi"/>
