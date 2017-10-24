@@ -27,6 +27,7 @@
 			<Item Name="Version Patch.vi" Type="VI" URL="../Public/Utility/Version Patch.vi"/>
 			<Item Name="Version Text.vi" Type="VI" URL="../Public/Utility/Version Text.vi"/>
 		</Item>
+		<Item Name="Reader.lvclass" Type="LVClass" URL="../Public/Reader/Reader.lvclass"/>
 		<Item Name="To Msgpack.vi" Type="VI" URL="../Public/To Msgpack.vi"/>
 		<Item Name="Writer.lvclass" Type="LVClass" URL="../Public/Writer/Writer.lvclass"/>
 	</Item>
