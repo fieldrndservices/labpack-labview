@@ -393,9 +393,9 @@
 			</Item>
 		</Item>
 		<Item Name="Numeric" Type="Folder">
-			<Item Name="i8" Type="Property Definition">
-				<Property Name="NI.ClassItem.Property.LongName" Type="Str">i8</Property>
-				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">i8</Property>
+			<Item Name="I8" Type="Property Definition">
+				<Property Name="NI.ClassItem.Property.LongName" Type="Str">I8</Property>
+				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">I8</Property>
 				<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
 				<Item Name="Write I8.vi" Type="VI" URL="../Public/Numeric/Write I8.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$2!=!!?!!!?$5RB9F"B9WMO&lt;(:M;7)/6X*J&gt;'6S,GRW9WRB=X-!!!J8=GFU:8)A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!#U!"!!6797RV:1!S1(!!(A!!(AV-97*197.L,GRW&lt;'FC$F&gt;S;82F=CZM&gt;G.M98.T!!!*6X*J&gt;'6S)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
@@ -407,11 +407,11 @@
 					<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 				</Item>
 			</Item>
-			<Item Name="i16" Type="Property Definition">
-				<Property Name="NI.ClassItem.Property.LongName" Type="Str">i16</Property>
-				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">i16</Property>
+			<Item Name="I16" Type="Property Definition">
+				<Property Name="NI.ClassItem.Property.LongName" Type="Str">I16</Property>
+				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">I16</Property>
 				<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-				<Item Name="Write i16.vi" Type="VI" URL="../Public/Numeric/Write i16.vi">
+				<Item Name="Write I16.vi" Type="VI" URL="../Public/Numeric/Write I16.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$2!=!!?!!!?$5RB9F"B9WMO&lt;(:M;7)/6X*J&gt;'6S,GRW9WRB=X-!!!J8=GFU:8)A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!#U!#!!6797RV:1!S1(!!(A!!(AV-97*197.L,GRW&lt;'FC$F&gt;S;82F=CZM&gt;G.M98.T!!!*6X*J&gt;'6S)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -421,11 +421,11 @@
 					<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 				</Item>
 			</Item>
-			<Item Name="i32" Type="Property Definition">
-				<Property Name="NI.ClassItem.Property.LongName" Type="Str">i32</Property>
-				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">i32</Property>
+			<Item Name="I32" Type="Property Definition">
+				<Property Name="NI.ClassItem.Property.LongName" Type="Str">I32</Property>
+				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">I32</Property>
 				<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-				<Item Name="Write i32.vi" Type="VI" URL="../Public/Numeric/Write i32.vi">
+				<Item Name="Write I32.vi" Type="VI" URL="../Public/Numeric/Write I32.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$2!=!!?!!!?$5RB9F"B9WMO&lt;(:M;7)/6X*J&gt;'6S,GRW9WRB=X-!!!J8=GFU:8)A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!#U!$!!6797RV:1!S1(!!(A!!(AV-97*197.L,GRW&lt;'FC$F&gt;S;82F=CZM&gt;G.M98.T!!!*6X*J&gt;'6S)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -435,11 +435,11 @@
 					<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 				</Item>
 			</Item>
-			<Item Name="i64" Type="Property Definition">
-				<Property Name="NI.ClassItem.Property.LongName" Type="Str">i64</Property>
-				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">i64</Property>
+			<Item Name="I64" Type="Property Definition">
+				<Property Name="NI.ClassItem.Property.LongName" Type="Str">I64</Property>
+				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">I64</Property>
 				<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-				<Item Name="Write i64.vi" Type="VI" URL="../Public/Numeric/Write i64.vi">
+				<Item Name="Write I64.vi" Type="VI" URL="../Public/Numeric/Write I64.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$2!=!!?!!!?$5RB9F"B9WMO&lt;(:M;7)/6X*J&gt;'6S,GRW9WRB=X-!!!J8=GFU:8)A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!#U!%!!6797RV:1!S1(!!(A!!(AV-97*197.L,GRW&lt;'FC$F&gt;S;82F=CZM&gt;G.M98.T!!!*6X*J&gt;'6S)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -463,11 +463,11 @@
 					<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 				</Item>
 			</Item>
-			<Item Name="u8" Type="Property Definition">
-				<Property Name="NI.ClassItem.Property.LongName" Type="Str">u8</Property>
-				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">u8</Property>
+			<Item Name="U8" Type="Property Definition">
+				<Property Name="NI.ClassItem.Property.LongName" Type="Str">U8</Property>
+				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">U8</Property>
 				<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-				<Item Name="Write u8.vi" Type="VI" URL="../Public/Numeric/Write u8.vi">
+				<Item Name="Write U8.vi" Type="VI" URL="../Public/Numeric/Write U8.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$2!=!!?!!!?$5RB9F"B9WMO&lt;(:M;7)/6X*J&gt;'6S,GRW9WRB=X-!!!J8=GFU:8)A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!#U!&amp;!!6797RV:1!S1(!!(A!!(AV-97*197.L,GRW&lt;'FC$F&gt;S;82F=CZM&gt;G.M98.T!!!*6X*J&gt;'6S)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -477,11 +477,11 @@
 					<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 				</Item>
 			</Item>
-			<Item Name="u16" Type="Property Definition">
-				<Property Name="NI.ClassItem.Property.LongName" Type="Str">u16</Property>
-				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">u16</Property>
+			<Item Name="U16" Type="Property Definition">
+				<Property Name="NI.ClassItem.Property.LongName" Type="Str">U16</Property>
+				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">U16</Property>
 				<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-				<Item Name="Write u16.vi" Type="VI" URL="../Public/Numeric/Write u16.vi">
+				<Item Name="Write U16.vi" Type="VI" URL="../Public/Numeric/Write U16.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$2!=!!?!!!?$5RB9F"B9WMO&lt;(:M;7)/6X*J&gt;'6S,GRW9WRB=X-!!!J8=GFU:8)A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!#U!'!!6797RV:1!S1(!!(A!!(AV-97*197.L,GRW&lt;'FC$F&gt;S;82F=CZM&gt;G.M98.T!!!*6X*J&gt;'6S)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -491,11 +491,11 @@
 					<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 				</Item>
 			</Item>
-			<Item Name="u32" Type="Property Definition">
-				<Property Name="NI.ClassItem.Property.LongName" Type="Str">u32</Property>
-				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">u32</Property>
+			<Item Name="U32" Type="Property Definition">
+				<Property Name="NI.ClassItem.Property.LongName" Type="Str">U32</Property>
+				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">U32</Property>
 				<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-				<Item Name="Write u32.vi" Type="VI" URL="../Public/Numeric/Write u32.vi">
+				<Item Name="Write U32.vi" Type="VI" URL="../Public/Numeric/Write U32.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$2!=!!?!!!?$5RB9F"B9WMO&lt;(:M;7)/6X*J&gt;'6S,GRW9WRB=X-!!!J8=GFU:8)A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!#U!(!!6797RV:1!S1(!!(A!!(AV-97*197.L,GRW&lt;'FC$F&gt;S;82F=CZM&gt;G.M98.T!!!*6X*J&gt;'6S)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -505,11 +505,11 @@
 					<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 				</Item>
 			</Item>
-			<Item Name="u64" Type="Property Definition">
-				<Property Name="NI.ClassItem.Property.LongName" Type="Str">u64</Property>
-				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">u64</Property>
+			<Item Name="U64" Type="Property Definition">
+				<Property Name="NI.ClassItem.Property.LongName" Type="Str">U64</Property>
+				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">U64</Property>
 				<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-				<Item Name="Write u64.vi" Type="VI" URL="../Public/Numeric/Write u64.vi">
+				<Item Name="Write U64.vi" Type="VI" URL="../Public/Numeric/Write U64.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$2!=!!?!!!?$5RB9F"B9WMO&lt;(:M;7)/6X*J&gt;'6S,GRW9WRB=X-!!!J8=GFU:8)A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!#U!)!!6797RV:1!S1(!!(A!!(AV-97*197.L,GRW&lt;'FC$F&gt;S;82F=CZM&gt;G.M98.T!!!*6X*J&gt;'6S)%FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
