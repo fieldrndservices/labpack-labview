@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Reader.lvlib" Type="Library" URL="../Public/Reader/Reader.lvlib"/>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
 		<Item Name="Status.lvlib" Type="Library" URL="../Public/Status/Status.lvlib"/>
 		<Item Name="To Msgpack.lvlib" Type="Library" URL="../Public/To Msgpack/To Msgpack.lvlib"/>

@@ -10,7 +10,7 @@
 
 </Property>
 	<Item Name="Private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="After Each.vi" Type="VI" URL="../Private/After Each.vi"/>
 		<Item Name="Before Each.vi" Type="VI" URL="../Private/Before Each.vi"/>
 	</Item>
