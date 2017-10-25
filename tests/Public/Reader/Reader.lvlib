@@ -20,6 +20,7 @@
 		<Item Name="Is Error.vi" Type="VI" URL="../Public/Is Error.vi"/>
 		<Item Name="Is OK.vi" Type="VI" URL="../Public/Is OK.vi"/>
 		<Item Name="Read U8.vi" Type="VI" URL="../Public/Read U8.vi"/>
+		<Item Name="Read U16.vi" Type="VI" URL="../Public/Read U16.vi"/>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
 		<Item Name="Status Message.vi" Type="VI" URL="../Public/Status Message.vi"/>
 		<Item Name="Status.vi" Type="VI" URL="../Public/Status.vi"/>
