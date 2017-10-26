@@ -20,6 +20,7 @@
 		<Item Name="Create-Destroy.vi" Type="VI" URL="../Public/Create-Destroy.vi"/>
 		<Item Name="Is Error.vi" Type="VI" URL="../Public/Is Error.vi"/>
 		<Item Name="Is OK.vi" Type="VI" URL="../Public/Is OK.vi"/>
+		<Item Name="Read Binary.vi" Type="VI" URL="../Public/Read Binary.vi"/>
 		<Item Name="Read Bool.vi" Type="VI" URL="../Public/Read Bool.vi"/>
 		<Item Name="Read Double.vi" Type="VI" URL="../Public/Read Double.vi"/>
 		<Item Name="Read False.vi" Type="VI" URL="../Public/Read False.vi"/>
