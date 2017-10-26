@@ -12,6 +12,7 @@
 		<Item Name="Build Shared Library Search Path.vi" Type="VI" URL="../Private/Build Shared Library Search Path.vi"/>
 		<Item Name="labpack-x64.dll" Type="Document" URL="../Private/labpack-x64.dll"/>
 		<Item Name="labpack.dll" Type="Document" URL="../Private/labpack.dll"/>
+		<Item Name="Read.vi" Type="VI" URL="../Private/Read.vi"/>
 		<Item Name="Write.vi" Type="VI" URL="../Private/Write.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
@@ -31,8 +32,5 @@
 		<Item Name="Reader.lvclass" Type="LVClass" URL="../Public/Reader/Reader.lvclass"/>
 		<Item Name="To Msgpack.vi" Type="VI" URL="../Public/To Msgpack.vi"/>
 		<Item Name="Writer.lvclass" Type="LVClass" URL="../Public/Writer/Writer.lvclass"/>
-	</Item>
-	<Item Name="Read.vi" Type="VI" URL="../Private/Read.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 </Library>
