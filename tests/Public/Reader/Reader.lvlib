@@ -20,10 +20,16 @@
 		<Item Name="Create-Destroy.vi" Type="VI" URL="../Public/Create-Destroy.vi"/>
 		<Item Name="Is Error.vi" Type="VI" URL="../Public/Is Error.vi"/>
 		<Item Name="Is OK.vi" Type="VI" URL="../Public/Is OK.vi"/>
+		<Item Name="Read I8.vi" Type="VI" URL="../Public/Read I8.vi"/>
+		<Item Name="Read I16.vi" Type="VI" URL="../Public/Read I16.vi"/>
+		<Item Name="Read I32.vi" Type="VI" URL="../Public/Read I32.vi"/>
+		<Item Name="Read I64.vi" Type="VI" URL="../Public/Read I64.vi"/>
+		<Item Name="Read Int.vi" Type="VI" URL="../Public/Read Int.vi"/>
 		<Item Name="Read U8.vi" Type="VI" URL="../Public/Read U8.vi"/>
 		<Item Name="Read U16.vi" Type="VI" URL="../Public/Read U16.vi"/>
 		<Item Name="Read U32.vi" Type="VI" URL="../Public/Read U32.vi"/>
 		<Item Name="Read U64.vi" Type="VI" URL="../Public/Read U64.vi"/>
+		<Item Name="Read Uint.vi" Type="VI" URL="../Public/Read Uint.vi"/>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
 		<Item Name="Status Message.vi" Type="VI" URL="../Public/Status Message.vi"/>
 		<Item Name="Status.vi" Type="VI" URL="../Public/Status.vi"/>
