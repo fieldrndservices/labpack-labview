@@ -10,6 +10,7 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="I8.vi" Type="VI" URL="../Public/I8.vi"/>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
 	</Item>
 </Library>
