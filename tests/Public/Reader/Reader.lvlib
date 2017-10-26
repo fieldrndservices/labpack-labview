@@ -16,6 +16,7 @@
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Begin-End Map.vi" Type="VI" URL="../Public/Begin-End Map.vi"/>
 		<Item Name="Begin-End.vi" Type="VI" URL="../Public/Begin-End.vi"/>
 		<Item Name="Create-Destroy.vi" Type="VI" URL="../Public/Create-Destroy.vi"/>
 		<Item Name="Is Error.vi" Type="VI" URL="../Public/Is Error.vi"/>
