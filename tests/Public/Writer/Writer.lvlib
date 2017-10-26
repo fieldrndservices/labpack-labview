@@ -31,10 +31,10 @@
 		<Item Name="Write Ext.vi" Type="VI" URL="../Public/Write Ext.vi"/>
 		<Item Name="Write False.vi" Type="VI" URL="../Public/Write False.vi"/>
 		<Item Name="Write Float.vi" Type="VI" URL="../Public/Write Float.vi"/>
-		<Item Name="Write i8.vi" Type="VI" URL="../Public/Write i8.vi"/>
-		<Item Name="Write i16.vi" Type="VI" URL="../Public/Write i16.vi"/>
-		<Item Name="Write i32.vi" Type="VI" URL="../Public/Write i32.vi"/>
-		<Item Name="Write i64.vi" Type="VI" URL="../Public/Write i64.vi"/>
+		<Item Name="Write I8.vi" Type="VI" URL="../Public/Write I8.vi"/>
+		<Item Name="Write I16.vi" Type="VI" URL="../Public/Write I16.vi"/>
+		<Item Name="Write I32.vi" Type="VI" URL="../Public/Write I32.vi"/>
+		<Item Name="Write I64.vi" Type="VI" URL="../Public/Write I64.vi"/>
 		<Item Name="Write Int.vi" Type="VI" URL="../Public/Write Int.vi"/>
 		<Item Name="Write Nil.vi" Type="VI" URL="../Public/Write Nil.vi"/>
 		<Item Name="Write Object Bytes.vi" Type="VI" URL="../Public/Write Object Bytes.vi"/>
