@@ -20,13 +20,17 @@
 		<Item Name="Create-Destroy.vi" Type="VI" URL="../Public/Create-Destroy.vi"/>
 		<Item Name="Is Error.vi" Type="VI" URL="../Public/Is Error.vi"/>
 		<Item Name="Is OK.vi" Type="VI" URL="../Public/Is OK.vi"/>
+		<Item Name="Read Bool.vi" Type="VI" URL="../Public/Read Bool.vi"/>
 		<Item Name="Read Double.vi" Type="VI" URL="../Public/Read Double.vi"/>
+		<Item Name="Read False.vi" Type="VI" URL="../Public/Read False.vi"/>
 		<Item Name="Read Float.vi" Type="VI" URL="../Public/Read Float.vi"/>
 		<Item Name="Read I8.vi" Type="VI" URL="../Public/Read I8.vi"/>
 		<Item Name="Read I16.vi" Type="VI" URL="../Public/Read I16.vi"/>
 		<Item Name="Read I32.vi" Type="VI" URL="../Public/Read I32.vi"/>
 		<Item Name="Read I64.vi" Type="VI" URL="../Public/Read I64.vi"/>
 		<Item Name="Read Int.vi" Type="VI" URL="../Public/Read Int.vi"/>
+		<Item Name="Read Nil.vi" Type="VI" URL="../Public/Read Nil.vi"/>
+		<Item Name="Read True.vi" Type="VI" URL="../Public/Read True.vi"/>
 		<Item Name="Read U8.vi" Type="VI" URL="../Public/Read U8.vi"/>
 		<Item Name="Read U16.vi" Type="VI" URL="../Public/Read U16.vi"/>
 		<Item Name="Read U32.vi" Type="VI" URL="../Public/Read U32.vi"/>
