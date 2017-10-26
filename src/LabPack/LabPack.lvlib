@@ -32,4 +32,7 @@
 		<Item Name="To Msgpack.vi" Type="VI" URL="../Public/To Msgpack.vi"/>
 		<Item Name="Writer.lvclass" Type="LVClass" URL="../Public/Writer/Writer.lvclass"/>
 	</Item>
+	<Item Name="Read.vi" Type="VI" URL="../Private/Read.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
