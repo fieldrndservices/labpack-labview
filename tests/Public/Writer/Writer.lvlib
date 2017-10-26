@@ -40,10 +40,10 @@
 		<Item Name="Write Object Bytes.vi" Type="VI" URL="../Public/Write Object Bytes.vi"/>
 		<Item Name="Write Str.vi" Type="VI" URL="../Public/Write Str.vi"/>
 		<Item Name="Write True.vi" Type="VI" URL="../Public/Write True.vi"/>
-		<Item Name="Write u8.vi" Type="VI" URL="../Public/Write u8.vi"/>
-		<Item Name="Write u16.vi" Type="VI" URL="../Public/Write u16.vi"/>
-		<Item Name="Write u32.vi" Type="VI" URL="../Public/Write u32.vi"/>
-		<Item Name="Write u64.vi" Type="VI" URL="../Public/Write u64.vi"/>
+		<Item Name="Write U8.vi" Type="VI" URL="../Public/Write U8.vi"/>
+		<Item Name="Write U16.vi" Type="VI" URL="../Public/Write U16.vi"/>
+		<Item Name="Write U32.vi" Type="VI" URL="../Public/Write U32.vi"/>
+		<Item Name="Write U64.vi" Type="VI" URL="../Public/Write U64.vi"/>
 		<Item Name="Write Uint.vi" Type="VI" URL="../Public/Write Uint.vi"/>
 	</Item>
 </Library>
