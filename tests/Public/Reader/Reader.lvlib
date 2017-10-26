@@ -22,6 +22,7 @@
 		<Item Name="Is OK.vi" Type="VI" URL="../Public/Is OK.vi"/>
 		<Item Name="Read Binary.vi" Type="VI" URL="../Public/Read Binary.vi"/>
 		<Item Name="Read Bool.vi" Type="VI" URL="../Public/Read Bool.vi"/>
+		<Item Name="Read Bytes.vi" Type="VI" URL="../Public/Read Bytes.vi"/>
 		<Item Name="Read Double.vi" Type="VI" URL="../Public/Read Double.vi"/>
 		<Item Name="Read False.vi" Type="VI" URL="../Public/Read False.vi"/>
 		<Item Name="Read Float.vi" Type="VI" URL="../Public/Read Float.vi"/>
@@ -31,6 +32,7 @@
 		<Item Name="Read I64.vi" Type="VI" URL="../Public/Read I64.vi"/>
 		<Item Name="Read Int.vi" Type="VI" URL="../Public/Read Int.vi"/>
 		<Item Name="Read Nil.vi" Type="VI" URL="../Public/Read Nil.vi"/>
+		<Item Name="Read Str.vi" Type="VI" URL="../Public/Read Str.vi"/>
 		<Item Name="Read True.vi" Type="VI" URL="../Public/Read True.vi"/>
 		<Item Name="Read U8.vi" Type="VI" URL="../Public/Read U8.vi"/>
 		<Item Name="Read U16.vi" Type="VI" URL="../Public/Read U16.vi"/>
