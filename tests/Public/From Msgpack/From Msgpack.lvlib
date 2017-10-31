@@ -11,6 +11,8 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Cluster with a Cluster.vi" Type="VI" URL="../Public/Cluster with a Cluster.vi"/>
+		<Item Name="Cluster with an Array.vi" Type="VI" URL="../Public/Cluster with an Array.vi"/>
 		<Item Name="Cluster.vi" Type="VI" URL="../Public/Cluster.vi"/>
 		<Item Name="Double Array.vi" Type="VI" URL="../Public/Double Array.vi"/>
 		<Item Name="Double.vi" Type="VI" URL="../Public/Double.vi"/>
