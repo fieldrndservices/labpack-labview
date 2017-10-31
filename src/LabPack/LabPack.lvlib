@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Array Variant to Cluster Variant.vi" Type="VI" URL="../Private/Array Variant to Cluster Variant.vi"/>
 		<Item Name="Build Shared Library Search Path.vi" Type="VI" URL="../Private/Build Shared Library Search Path.vi"/>
 		<Item Name="labpack-x64.dll" Type="Document" URL="../Private/labpack-x64.dll"/>
 		<Item Name="labpack.dll" Type="Document" URL="../Private/labpack.dll"/>
