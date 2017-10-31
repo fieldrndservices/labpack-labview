@@ -12,9 +12,10 @@
 	<Item Name="Public" Type="Folder">
 		<Item Name="Boolean.vi" Type="VI" URL="../Public/Boolean.vi"/>
 		<Item Name="Byte Array.vi" Type="VI" URL="../Public/Byte Array.vi"/>
+		<Item Name="Cluster Array.vi" Type="VI" URL="../Public/Cluster Array.vi"/>
 		<Item Name="Cluster with a Cluster.vi" Type="VI" URL="../Public/Cluster with a Cluster.vi"/>
+		<Item Name="Cluster with a String.vi" Type="VI" URL="../Public/Cluster with a String.vi"/>
 		<Item Name="Cluster with an Array.vi" Type="VI" URL="../Public/Cluster with an Array.vi"/>
-		<Item Name="Cluster with String.vi" Type="VI" URL="../Public/Cluster with String.vi"/>
 		<Item Name="Cluster.vi" Type="VI" URL="../Public/Cluster.vi"/>
 		<Item Name="Double Array.vi" Type="VI" URL="../Public/Double Array.vi"/>
 		<Item Name="Double.vi" Type="VI" URL="../Public/Double.vi"/>

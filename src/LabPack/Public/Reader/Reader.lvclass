@@ -326,7 +326,7 @@
 					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-					<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 				</Item>
 			</Item>
 			<Item Name="Begin Bin.vi" Type="VI" URL="../Public/Binary/Begin Bin.vi">
