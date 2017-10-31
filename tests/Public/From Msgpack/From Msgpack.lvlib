@@ -11,7 +11,11 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Boolean.vi" Type="VI" URL="../Public/Boolean.vi"/>
+		<Item Name="Byte Array.vi" Type="VI" URL="../Public/Byte Array.vi"/>
+		<Item Name="Cluster Array.vi" Type="VI" URL="../Public/Cluster Array.vi"/>
 		<Item Name="Cluster with a Cluster.vi" Type="VI" URL="../Public/Cluster with a Cluster.vi"/>
+		<Item Name="Cluster with a String.vi" Type="VI" URL="../Public/Cluster with a String.vi"/>
 		<Item Name="Cluster with an Array.vi" Type="VI" URL="../Public/Cluster with an Array.vi"/>
 		<Item Name="Cluster.vi" Type="VI" URL="../Public/Cluster.vi"/>
 		<Item Name="Double Array.vi" Type="VI" URL="../Public/Double Array.vi"/>
@@ -19,5 +23,9 @@
 		<Item Name="I8 Array.vi" Type="VI" URL="../Public/I8 Array.vi"/>
 		<Item Name="I8.vi" Type="VI" URL="../Public/I8.vi"/>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
+		<Item Name="String Array.vi" Type="VI" URL="../Public/String Array.vi"/>
+		<Item Name="String.vi" Type="VI" URL="../Public/String.vi"/>
+		<Item Name="U8 Array.vi" Type="VI" URL="../Public/U8 Array.vi"/>
+		<Item Name="Void.vi" Type="VI" URL="../Public/Void.vi"/>
 	</Item>
 </Library>
