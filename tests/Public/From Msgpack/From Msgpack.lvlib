@@ -17,4 +17,5 @@
 		<Item Name="I8.vi" Type="VI" URL="../Public/I8.vi"/>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
 	</Item>
+	<Item Name="Cluster.vi" Type="VI" URL="../Public/Cluster.vi"/>
 </Library>

@@ -584,13 +584,13 @@
 				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Status</Property>
 				<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
 				<Item Name="Read Status.vi" Type="VI" URL="../Public/Status/Read Status.vi">
-					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;_!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!&amp;A!]&gt;90M,=!!!!#$5RB9F"B9WMO&lt;(:M;7)+5X2B&gt;(6T,G.U&lt;!!X1"=!"!*03QV0&gt;81A&lt;W9A476N&lt;X*Z#EZV&lt;'QA6G&amp;M&gt;75(27ZD&lt;W2F=A!'5X2B&gt;(6T!!!U1(!!(A!!(AV-97*197.L,GRW&lt;'FC$F&gt;S;82F=CZM&gt;G.M98.T!!!+6X*J&gt;'6S)%^V&gt;!!!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!$*!=!!?!!!?$5RB9F"B9WMO&lt;(:M;7)/6X*J&gt;'6S,GRW9WRB=X-!!!F8=GFU:8)A37Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
+					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!''!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!'!!]&gt;9?2BE!!!!#$5RB9F"B9WMO&lt;(:M;7)+5X2B&gt;(6T,G.U&lt;!!`1"=!"1*03QV0&gt;81A&lt;W9A476N&lt;X*Z#EZV&lt;'QA6G&amp;M&gt;75(27ZD&lt;W2F=A&gt;%:7.P:'6S!!:4&gt;'&amp;U&gt;8-!!$2!=!!?!!!?$5RB9F"B9WMO&lt;(:M;7)/6X*J&gt;'6S,GRW9WRB=X-!!!J8=GFU:8)A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!-E"Q!"Y!!"Y.4'&amp;C5'&amp;D;SZM&gt;GRJ9AZ8=GFU:8)O&lt;(:D&lt;'&amp;T=Q!!#6&gt;S;82F=C"*&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-					<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">276832272</Property>
 				</Item>
 			</Item>
 			<Item Name="Status Message" Type="Property Definition">
