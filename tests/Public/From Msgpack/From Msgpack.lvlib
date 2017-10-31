@@ -11,11 +11,11 @@
 </Property>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Cluster.vi" Type="VI" URL="../Public/Cluster.vi"/>
 		<Item Name="Double Array.vi" Type="VI" URL="../Public/Double Array.vi"/>
 		<Item Name="Double.vi" Type="VI" URL="../Public/Double.vi"/>
 		<Item Name="I8 Array.vi" Type="VI" URL="../Public/I8 Array.vi"/>
 		<Item Name="I8.vi" Type="VI" URL="../Public/I8.vi"/>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
 	</Item>
-	<Item Name="Cluster.vi" Type="VI" URL="../Public/Cluster.vi"/>
 </Library>
