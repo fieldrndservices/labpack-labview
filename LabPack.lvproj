@@ -17,7 +17,9 @@
 			<Item Name="CHANGELOG.md" Type="Document" URL="../docs/CHANGELOG.md"/>
 			<Item Name="LICENSE.txt" Type="Document" URL="../docs/LICENSE.txt"/>
 		</Item>
-		<Item Name="Examples" Type="Folder"/>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Simple.vi" Type="VI" URL="../src/Examples/Simple.vi"/>
+		</Item>
 		<Item Name="LabPack.lvlib" Type="Library" URL="../src/LabPack/LabPack.lvlib"/>
 		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
