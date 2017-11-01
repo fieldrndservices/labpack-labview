@@ -10,8 +10,8 @@
 
 </Property>
 	<Item Name="Public" Type="Folder">
+		<Item Name="Binary.vi" Type="VI" URL="../Public/Binary.vi"/>
 		<Item Name="Boolean.vi" Type="VI" URL="../Public/Boolean.vi"/>
-		<Item Name="Byte Array.vi" Type="VI" URL="../Public/Byte Array.vi"/>
 		<Item Name="Cluster Array.vi" Type="VI" URL="../Public/Cluster Array.vi"/>
 		<Item Name="Cluster with a Cluster.vi" Type="VI" URL="../Public/Cluster with a Cluster.vi"/>
 		<Item Name="Cluster with a String.vi" Type="VI" URL="../Public/Cluster with a String.vi"/>
@@ -19,12 +19,22 @@
 		<Item Name="Cluster.vi" Type="VI" URL="../Public/Cluster.vi"/>
 		<Item Name="Double Array.vi" Type="VI" URL="../Public/Double Array.vi"/>
 		<Item Name="Double.vi" Type="VI" URL="../Public/Double.vi"/>
+		<Item Name="Float.vi" Type="VI" URL="../Public/Float.vi"/>
 		<Item Name="I8 Array.vi" Type="VI" URL="../Public/I8 Array.vi"/>
 		<Item Name="I8.vi" Type="VI" URL="../Public/I8.vi"/>
+		<Item Name="I16.vi" Type="VI" URL="../Public/I16.vi"/>
+		<Item Name="I32.vi" Type="VI" URL="../Public/I32.vi"/>
+		<Item Name="I64.vi" Type="VI" URL="../Public/I64.vi"/>
+		<Item Name="Int.vi" Type="VI" URL="../Public/Int.vi"/>
 		<Item Name="Run All.vi" Type="VI" URL="../Public/Run All.vi"/>
 		<Item Name="String Array.vi" Type="VI" URL="../Public/String Array.vi"/>
 		<Item Name="String.vi" Type="VI" URL="../Public/String.vi"/>
 		<Item Name="U8 Array.vi" Type="VI" URL="../Public/U8 Array.vi"/>
+		<Item Name="U8.vi" Type="VI" URL="../Public/U8.vi"/>
+		<Item Name="U16.vi" Type="VI" URL="../Public/U16.vi"/>
+		<Item Name="U32.vi" Type="VI" URL="../Public/U32.vi"/>
+		<Item Name="U64.vi" Type="VI" URL="../Public/U64.vi"/>
+		<Item Name="Uint.vi" Type="VI" URL="../Public/Uint.vi"/>
 		<Item Name="Void.vi" Type="VI" URL="../Public/Void.vi"/>
 	</Item>
 </Library>
