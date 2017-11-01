@@ -16,7 +16,29 @@ A VI Package (VIP) is available on the [National Instruments (NI)](http://www.ni
 
 See the in-app LabVIEW Help system for more information and documentation about using the library after it has been installed, or visit the [web-based documentation](https://help.fieldrndservices.com/labpack). Examples are also available within the LabVIEW development environment using the `Help->Find Examples...` menu item.
 
+### Build
+
+The [HTML Help Workshop](https://www.microsoft.com/en-us/download/details.aspx?id=21138) developed and published by Microsoft must be installed to complete the build.
+
+1. Open a VI to create the documentation.
+2. Select `File->Print...` from the menu bar. A new dialog will appear.
+3. In the Print dialog that appears, select the VI option between the two radio buttons. Do NOT select _Multiple VIs_ as this will combine all VI documentation into a single HTML file. Click _Next >_. A new page will appear.
+4. Use the _Add File(s)..._ button to add multiple VIs to the _Select VIs_ list on the left. Once all of the VIs have been added to the list, click _Next >_. A new page will appear.
+5. Select _VI documentation_ option from the radio buttons that appear in the _Print Contents_ box. Click _Next >_. A new page will appear.
+6. Select _Using as a subVI_ for the _VI Documentation Style_. Most of the appropriate settings will be selected automatically when selecting the style. However, change _Connected controls_ to _All Controls_ in the dropdown menu under the _Controls_ checkbox. The _VI Documentation Style_ will change to _Custom_, but this is acceptable. Click _Next >_. A new page will appear.
+7. Select the _HTML file_ from the radio buttons that appear in the _Destination_ box. Click _Next >_. A new page will appear.
+8. Click _Save..._. Nothing needs to be changed in the _HTML_ box. Save the HTML file to the `src/Help` folder on-disk.
+9. Repeat steps 1-8 for each VI that needs help documentation, i.e. all public VIs and controls.
+10. Move all PNG files into the `images` sub-folder.
+11. Remove the `LabPack_lvlib_` prefix from all HTML files in the `src/Help` folder.
+12. Open each HTML file into a text editor and append all paths for images with the `images` folder. For example, in vim, the following can be done:
+
+    :%s/IMG SRC="/IMG SRC="images\//g
+
+13. Start the HTML Help Workshop (`C:\Program Files (x86)\HTML Help Workshop`). Open the `LabPack.hhp` file in the `src/Help` folder. Due to a bug in the application, the `LabPack.hhp` file cannot be opened by double-clicking on it. An error occurs when saving. 
+14. Use the HTML Help Workshop to compile the HTML files into the CHM file.
+
 ## License
 
-See the [LICENSE.txt](https://github.com/fieldrndservices/logger/blob/master/docs/LICENSE.txt) file for information about licensing and copyright.
+See the LICENSE.txt file for information about licensing and copyright.
 
