@@ -13,9 +13,12 @@
 		<Item Name="Configs" Type="Folder">
 			<Item Name="LabPack.vipb" Type="Document" URL="../configs/LabPack.vipb"/>
 		</Item>
+		<Item Name="Docs" Type="Folder">
+			<Item Name="CHANGELOG.md" Type="Document" URL="../docs/CHANGELOG.md"/>
+			<Item Name="LICENSE.txt" Type="Document" URL="../docs/LICENSE.txt"/>
+		</Item>
 		<Item Name="Examples" Type="Folder"/>
 		<Item Name="LabPack.lvlib" Type="Library" URL="../src/LabPack/LabPack.lvlib"/>
-		<Item Name="LICENSE.txt" Type="Document" URL="../LICENSE.txt"/>
 		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
