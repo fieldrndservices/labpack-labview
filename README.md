@@ -35,8 +35,9 @@ The [HTML Help Workshop](https://www.microsoft.com/en-us/download/details.aspx?i
 
     :%s/IMG SRC="/IMG SRC="images\//g
 
-13. Start the HTML Help Workshop (`C:\Program Files (x86)\HTML Help Workshop`). Open the `LabPack.hhp` file in the `src/Help` folder. Due to a bug in the application, the `LabPack.hhp` file cannot be opened by double-clicking on it. An error occurs when saving. 
-14. Use the HTML Help Workshop to compile the HTML files into the CHM file.
+13. Add a horizontal rule (`<HR>`) after the Icon and Connector Pane image but before the table of controls and indicators using a text editor for each HTML file. This is part of NI's HTML help files but it is not included in the printed HTML.
+14. Start the HTML Help Workshop (`C:\Program Files (x86)\HTML Help Workshop`). Open the `LabPack.hhp` file in the `src/Help` folder. Due to a bug in the application, the `LabPack.hhp` file cannot be opened by double-clicking on it. An error occurs when saving. 
+15. Use the HTML Help Workshop to compile the HTML files into the CHM file.
 
 ## License
 
