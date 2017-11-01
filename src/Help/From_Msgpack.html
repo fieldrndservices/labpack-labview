@@ -1,0 +1,170 @@
+<HTML>
+<HEAD>
+<TITLE>LabPack.lvlib:From Msgpack.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="LabPack.lvlib:From Msgpack.vi"></A><H2>LabPack.lvlib:From Msgpack.vi</H2>
+<P>Converts MessagePack binary data to Variant. The &lt;b&gt;Type and Defaults&lt;/b&gt; control must be provided as schema-less decoding of MessagePack data is not supported. If a cluster is used, then all elements must have labels. Each element in a cluster is decoded as a map (key-value pair), where the element's label is the key. By default, the MessagePack binary type is converted to a byte array.</P>
+<P><IMG SRC="images/LabPack_lvlib_From_Msgpackc.png" ALT="LabPack.lvlib:From Msgpack.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>Error In</B> <P>Describes error conditions that occur before this node runs. This input provides standard error in functionality. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P><B>status</B> is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P><B>code</B> is the error or warning code.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P><B>source</B> describes the origin of the error or warning.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>LabPack Shared Library</B> <P>The absolute path to the LabPack shared library (DLL, dylib, or SO). If &lt;Not a Path&gt; is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as &quot;/usr/lib&quot; on Unix-like systems. The first valid path to the shared library will be used.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/c1du8.png" ALT="c1du8"></P>
+</TD>
+<TD>
+<B>Msgpack Data</B> <P>The binary data encoded according to the MessagePack specification.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cu8.png" ALT="cu8"></P>
+</TD>
+<TD>
+<B></B> <P>Byte</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cfxdt.png" ALT="cfxdt"></P>
+</TD>
+<TD>
+<B>Types and Defaults</B> <P>The structure, or schema, of the MessagePack data. Schema-less decoding, i.e. arbitrary decoding, is currently not supported. The values are replaced with the values from the MessagePack data.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Byte Array as Blobs</B> <P>If TRUE, then byte arrays (arrays with U8 elements) are treated and decoded as binary blobs instead of the array. This can be more efficient. Binary data is represented in LabVIEW as arrays of U8 elements. It is possible to also have array of U8 elements as a compound type in the MessagePack format. If FALSE, then byte arrays are decoded as MessagePack arrays instead of binary data.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>Error Out</B> <P>Contains error information. This output provides standard error out functionality.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P><B>status</B> is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P><B>code</B> is the error or warning code.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P><B>source</B> describes the origin of the error or warning.</P>
+<P></P>
+<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/ifxdt.png" ALT="ifxdt"></P>
+</TD>
+<TD>
+<B>Value</B> <P>The MessagePack data decoded according to the schema provided in the &lt;b&gt;Types and Defaults&lt;/b&gt;. The values are replaced with the values from the MessagePack data. The Variant to Data VI can be used to obtain the values.</P>
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>
