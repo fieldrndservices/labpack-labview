@@ -1,0 +1,117 @@
+<HTML>
+<HEAD>
+<TITLE>LabPack.lvlib:Reader.lvclass:Begin.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="LabPack.lvlib:Reader.lvclass:Begin.vi"></A><H2>LabPack.lvlib:Reader.lvclass:Begin.vi</H2>
+<P>Starts the internal decoder. This is required to be called before any other Reader VIs are used. This creates a new buffer and interal tree, i.e. this will potentially allocate memory. This VI also resets or clears any error status.</P>
+<P><IMG SRC="images/LabPack_lvlib_Reader_lvclass_Beginc.png" ALT="LabPack.lvlib:Reader.lvclass:Begin.vi"></P>
+<HR>
+<A NAME="LabPack.lvlib:Reader.lvclass:Begin by Value.vi"></A><H2>Begin (Value)</H2>
+<P><IMG SRC="images/LabPack_lvlib_Reader_lvclass_Begin_by_Valuec.png" ALT="LabPack.lvlib:Reader.lvclass:Begin by Value.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cLabPack_lvlib_Readerlvclass.png" ALT="cLabPack_lvlib_Readerlvclass"></P>
+</TD>
+<TD>
+    <P><B>Reader In</B> is the decoder as an object of the Reader class, which is passed by value.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+    <P><B>Error In</B> describes error conditions that occur before this node runs. This input provides standard error in functionality. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/c1du8.png" ALT="c1du8"></P>
+</TD>
+<TD>
+    <P><B>Msgpack Data</B> is the binary MessagePack data to decode.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+    <P><B>Error Out</B> contains error information. This output provides standard error out functionality.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/iLabPack_lvlib_Readerlvclass.png" ALT="iLabPack_lvlib_Readerlvclass"></P>
+</TD>
+<TD>
+    <P><B>Reader Out</B> is the decoder as an object of the Reader class, which is passed by value.</P>
+</TD>
+</TR>
+</Table>
+<A NAME="LabPack.lvlib:Reader.lvclass:Begin by Reference.vi"></A><H2>Begin (Reference)</H2>
+<P><IMG SRC="images/LabPack_lvlib_Reader_lvclass_Begin_by_Referencec.png" ALT="LabPack.lvlib:Reader.lvclass:Begin by Reference.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cdatavalref.png" ALT="cdatavalref"></P>
+</TD>
+<TD>
+    <P><B>Reader In</B> is the decoder as a Data Value Reference (DVR) of a Reader class object, which is passed by reference.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+    <P><B>Error In</B> describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/c1du8.png" ALT="c1du8"></P>
+</TD>
+<TD>
+    <P><B>Msgpack Data</B> is the binary MessagePack data to decode.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/idatavalref.png" ALT="idatavalref"></P>
+</TD>
+<TD>
+    <P><B>Reader Out</B> is the decoder as a Data Value Reference (DVR) of a Reader class object, which is passed by reference.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+    <P><B>Error Out</B> contains error information. This output provides standard error out functionality.</P>
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>
