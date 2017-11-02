@@ -2,6 +2,8 @@
 <LVClass LVVersion="17008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">LabPack.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../LabPack.lvlib</Property>
+	<Property Name="NI.Lib.Description" Type="Str">The Writer class embodies the encoding of MessagePack data. It is used to convert LabVIEW types and values to MessagePack data.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)E!!!*Q(C=\&gt;4"&lt;1)R%)8BFSC(8/EAII6JA2:I96LAGC-ND%1&amp;N%!,LQ6;I)8.PW9A532#$IG51\TR"J[^^L&gt;?M^)IT^+4JHNF^W8J^KHL\H0X;`NU;:JONU^^GPN='KZ8&gt;8QZ4&lt;M&lt;\?^$@'S`\&lt;^8^'8Z&lt;`^P`^PN^\@X[`U@Q?]7[7&amp;)K;97.;ER\GYSO=F.&lt;H+4G\T)C\T)C\T)CTT*ETT*ETT*ETT)ATT)ATT)AXQ=Z#)8O=B:&amp;4/ZG=A-;A9QH;()H)T(?)T(?0AKYT%?YT%?Y[',D-&gt;YD-&gt;YD)@,:$T'9TT'9TQ-.31?"TE?YW&amp;Y&amp;:\#5XA+4_&amp;B3B7?!F"-6AR=$!*$270RI@!5HM,$2R7?QF.Y#E`BI6G&amp;J`!5HM*4?,BEL%I.T8S1YW%9*:\%EXA34_*B;#7?R*.Y%E`C94IFHM34)*)*E]%B+,EI[:"]34S*BX^+0)EH]33?R%04?%)Z6G&lt;7T!=ZHM!4?!*0Y!E]$+(!%XA#4_!*0!SLQ".Y!E`A#4R-J=!4?!*0!!EG:8I&amp;AQ58"JW#)0$Q.X:,D+&gt;51R,D[*`G?;/K.["[9[EXD(IDK"_Q_M'J(YB[I&gt;5,K&amp;Y9^1WL&lt;U1.6%_M(F$&gt;53@/2_K"OK&gt;OK2PKGLKC,KG,_&gt;)@\HA[H81](H5Y(,4@\\8&gt;&lt;L8:&lt;,2?L\6;L&lt;2=,L69,+ZPKR?/=XHY\HPJF&lt;[`5=`PJ&lt;`Q&lt;N3DJA_P?&gt;&lt;I$&gt;FBPEM!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.6</Property>
