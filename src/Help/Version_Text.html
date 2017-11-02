@@ -1,54 +1,54 @@
-<HTML>
-<HEAD>
-<TITLE>Version Text VI</TITLE>
-<META NAME="Author" CONTENT="">
-<META NAME="GENERATOR" CONTENT="G Development Environment">
-<LINK rel="stylesheet" href="css/ni.css">
-</HEAD>
-<BODY BGCOLOR="#FFFFFF">
-<A NAME="LabPack.lvlib:Version Text.vi"></A><H2>Version Text VI</H2>
-<P>Gets the version number of the LabPack shared library as a string in dot notation, i.e. <code>Major.Minor.Patch</code>. The LabPack shared library maintains a semantic versioning number with a Major, Minor, and Patch component. A difference in the Major number indicates backwards compatible breaking changes. A difference in the Minor number indicates new features and fixes that do not break backwards compatibility. A difference in the Patch number indicates a fix that does not break backwards compatibility and does not add any new features.</P>
-<P><IMG SRC="images/LabPack_lvlib_Version_Textc.png" ALT="LabPack.lvlib:Version Text.vi"></P>
-<HR>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
-</TD>
-<TD>
-    <P><B>Error In</B> describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cpath.png" ALT="cpath"></P>
-</TD>
-<TD>
-    <P><B>LabPack Shared Library</B> is the absolute path to the LabPack shared library (DLL, dylib, or SO). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
-</TD>
-<TD>
-    <P><B>Error Out</B> contains error information. This output provides standard error out functionality.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/istr.png" ALT="istr"></P>
-</TD>
-<TD>
-    <P><B>Version</B> is the semantic versioning version number as a string in dot notation.</P>
-</TD>
-</TR>
-</Table>
-</BODY>
-</HTML>
+<html>
+<head>
+<title>Version Text VI</title>
+<meta NAME="Author" CONTENT="">
+<meta NAME="GENERATOR" CONTENT="G Development Environment">
+<link rel="stylesheet" href="css/ni.css">
+</head>
+<body BGCOLOR="#FFFFFF">
+<a NAME="LabPack.lvlib:Version Text.vi"></a><H2>Version Text VI</H2>
+<p>Gets the version number of the LabPack shared library as a string in dot notation, i.e. <code>Major.Minor.Patch</code>. The LabPack shared library maintains a semantic versioning number with a Major, Minor, and Patch component. A difference in the Major number indicates backwards compatible breaking changes. A difference in the Minor number indicates new features and fixes that do not break backwards compatibility. A difference in the Patch number indicates a fix that does not break backwards compatibility and does not add any new features.</p>
+<p><img SRC="images/LabPack_lvlib_Version_Textc.png" ALT="LabPack.lvlib:Version Text.vi"></p>
+<hr>
+<table>
+<tr valign=TOP>
+<td>
+<p><img SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></p>
+</td>
+<td>
+    <p><b>Error In</b> describes error conditions that occur before this node runs. This input provides standard error in functionality.</p>
+</td>
+</tr>
+</table>
+<table>
+<tr valign=TOP>
+<td>
+<p><img SRC="images/cpath.png" ALT="cpath"></p>
+</td>
+<td>
+    <p><b>LabPack Shared Library</b> is the absolute path to the LabPack shared library (DLL, dylib, or SO). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</p>
+</td>
+</tr>
+</table>
+<table>
+<tr valign=TOP>
+<td>
+<p><img SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></p>
+</td>
+<td>
+    <p><b>Error Out</b> contains error information. This output provides standard error out functionality.</p>
+</td>
+</tr>
+</table>
+<table>
+<tr valign=TOP>
+<td>
+<p><img SRC="images/istr.png" ALT="istr"></p>
+</td>
+<td>
+    <p><b>Version</b> is the semantic versioning version number as a string in dot notation.</p>
+</td>
+</tr>
+</table>
+</body>
+</html>
