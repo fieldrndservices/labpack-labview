@@ -1,64 +1,64 @@
-<HTML>
-<HEAD>
-<TITLE>Status Code VI</TITLE>
-<META NAME="Author" CONTENT="">
-<META NAME="GENERATOR" CONTENT="G Development Environment">
-<LINK rel="stylesheet" href="css/ni.css">
-</HEAD>
-<BODY BGCOLOR="#FFFFFF">
-<A NAME="LabPack.lvlib:Status Code.vi"></A><H2>Status Code VI</H2>
-<P>Converts a LabPack shared library status to an error code. Errors have a negative value, warnings have a positive value, and zero indicates an OK status.</P>
-<P><IMG SRC="images/LabPack_lvlib_Status_Codec.png" ALT="LabPack.lvlib:Status Code.vi"></P>
-<HR>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
-</TD>
-<TD>
-    <P><B>Error In</B> describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cpath.png" ALT="cpath"></P>
-</TD>
-<TD>
-    <P><B>LabPack Shared Library</B> is the absolute path to the LabPack shared library (DLL, dylib, or SO). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cenum.png" ALT="cenum"></P>
-</TD>
-<TD>
-    <P><B>Status</B> is the LabPack shared library status.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
-</TD>
-<TD>
-    <P><B>Error Out</B> contains error information. This output provides standard error out functionality. </P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/ii32.png" ALT="ii32"></P>
-</TD>
-<TD>
-    <P><B>Code</B> is an integer representation of a LabPack shared library status. Negative values are errors, positive values are warnings, and zero is OK.</P>
-</TD>
-</TR>
-</Table>
-</BODY>
-</HTML>
+<html>
+<head>
+<title>Status Code VI</title>
+<meta NAME="Author" CONTENT="">
+<meta NAME="GENERATOR" CONTENT="G Development Environment">
+<link rel="stylesheet" href="css/ni.css">
+</head>
+<body BGCOLOR="#FFFFFF">
+<a NAME="LabPack.lvlib:Status Code.vi"></a><H2>Status Code VI</H2>
+<p>Converts a LabPack shared library status to an error code. Errors have a negative value, warnings have a positive value, and zero indicates an OK status.</p>
+<p><img SRC="images/LabPack_lvlib_Status_Codec.png" ALT="LabPack.lvlib:Status Code.vi"></p>
+<hr>
+<table>
+<tr valign=TOP>
+<td>
+<p><img SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></p>
+</td>
+<td>
+    <p><b>Error In</b> describes error conditions that occur before this node runs. This input provides standard error in functionality.</p>
+</td>
+</tr>
+</table>
+<table>
+<tr valign=TOP>
+<td>
+<p><img SRC="images/cpath.png" ALT="cpath"></p>
+</td>
+<td>
+    <p><b>LabPack Shared Library</b> is the absolute path to the LabPack shared library (DLL, dylib, or SO). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</p>
+</td>
+</tr>
+</table>
+<table>
+<tr valign=TOP>
+<td>
+<p><img SRC="images/cenum.png" ALT="cenum"></p>
+</td>
+<td>
+    <p><b>Status</b> is the LabPack shared library status.</p>
+</td>
+</tr>
+</table>
+<table>
+<tr valign=TOP>
+<td>
+<p><img SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></p>
+</td>
+<td>
+    <p><b>Error Out</b> contains error information. This output provides standard error out functionality. </p>
+</td>
+</tr>
+</table>
+<table>
+<tr valign=TOP>
+<td>
+<p><img SRC="images/ii32.png" ALT="ii32"></p>
+</td>
+<td>
+    <p><b>Code</b> is an integer representation of a LabPack shared library status. Negative values are errors, positive values are warnings, and zero is OK.</p>
+</td>
+</tr>
+</table>
+</body>
+</html>
