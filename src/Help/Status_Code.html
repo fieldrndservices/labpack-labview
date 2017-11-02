@@ -1,19 +1,19 @@
 <html>
 <head>
 <title>Status Code VI</title>
-<meta NAME="Author" CONTENT="">
-<meta NAME="GENERATOR" CONTENT="G Development Environment">
+<meta name="author" content="">
+<meta name="generator" content="g development environment">
 <link rel="stylesheet" href="css/ni.css">
 </head>
-<body BGCOLOR="#FFFFFF">
-<a NAME="LabPack.lvlib:Status Code.vi"></a><H2>Status Code VI</H2>
+<body bgcolor="#ffffff">
+<a name="labpack.lvlib:status code.vi"></a><h2>Status Code VI</h2>
 <p>Converts a LabPack shared library status to an error code. Errors have a negative value, warnings have a positive value, and zero indicates an OK status.</p>
-<p><img SRC="images/LabPack_lvlib_Status_Codec.png" ALT="LabPack.lvlib:Status Code.vi"></p>
+<p><img src="images/labpack_lvlib_status_codec.png" alt="labpack.lvlib:status code.vi"></p>
 <hr>
 <table>
-<tr valign=TOP>
+<tr valign=top>
 <td>
-<p><img SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></p>
+<p><img src="images/cerrcodeclst.png" alt="cerrcodeclst"></p>
 </td>
 <td>
     <p><b>Error In</b> describes error conditions that occur before this node runs. This input provides standard error in functionality.</p>
@@ -21,9 +21,9 @@
 </tr>
 </table>
 <table>
-<tr valign=TOP>
+<tr valign=top>
 <td>
-<p><img SRC="images/cpath.png" ALT="cpath"></p>
+<p><img src="images/cpath.png" alt="cpath"></p>
 </td>
 <td>
     <p><b>LabPack Shared Library</b> is the absolute path to the LabPack shared library (DLL, dylib, or SO). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</p>
@@ -31,9 +31,9 @@
 </tr>
 </table>
 <table>
-<tr valign=TOP>
+<tr valign=top>
 <td>
-<p><img SRC="images/cenum.png" ALT="cenum"></p>
+<p><img src="images/cenum.png" alt="cenum"></p>
 </td>
 <td>
     <p><b>Status</b> is the LabPack shared library status.</p>
@@ -41,9 +41,9 @@
 </tr>
 </table>
 <table>
-<tr valign=TOP>
+<tr valign=top>
 <td>
-<p><img SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></p>
+<p><img src="images/ierrcodeclst.png" alt="ierrcodeclst"></p>
 </td>
 <td>
     <p><b>Error Out</b> contains error information. This output provides standard error out functionality. </p>
@@ -51,9 +51,9 @@
 </tr>
 </table>
 <table>
-<tr valign=TOP>
+<tr valign=top>
 <td>
-<p><img SRC="images/ii32.png" ALT="ii32"></p>
+<p><img src="images/ii32.png" alt="ii32"></p>
 </td>
 <td>
     <p><b>Code</b> is an integer representation of a LabPack shared library status. Negative values are errors, positive values are warnings, and zero is OK.</p>
