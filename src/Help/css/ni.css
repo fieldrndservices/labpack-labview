@@ -1,57 +1,94 @@
-body{background-color:#fff;font-size:11px;font-family:Verdana, Helvetica, sans-serif;color:#000;margin-top:0;margin-left:9px;}
-p,td,ul,ol,li,dd,div,select,input{font-size:11px;font-family:Verdana, Helvetica, sans-serif;font-weight:400;font-style:normal;color:#000;}
-th{text-align:left;}
-sup{font-size:10px;}
-pre{font-size:11px;font-family:Courier, fixed-width;font-weight:400;color:#000;}
-em{font-style:italic;}
-h1{font-size:22px;color:#000;margin:8px 0 0;}
-h2{font-size:18px;color:#000;margin:6px 0 0;}
-h3{font-size:14px;color:#000;margin:4px 0 0;}
-h4{font-size:12px;margin:2px 0;}
-h5{font-size:11px;margin:2px 0;}
-form{padding:0;margin:0;}
+body {
+    background-color: #ffffff;
+    font-size: 11px;
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #000000;
+    margin-top: 0;
+    margin-left: 9px;
+}
 
-a:link{color:#3366cc;text-decoration:none;}
-a:visited{color:#884488;text-decoration:none;}
-a:hover{color:#3366cc;text-decoration:underline;}
-a:active{color:#807820;text-decoration:none;}
+p,td,ul,ol,li,dd,div,select,input {
+    font-size: 11px;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#000000;
+}
 
-.niblue{background-color:#065fa3;}
-.niblue50{background-color:#82afd1;}
-.niblue35{background-color:#a8c7df;}
-.niblue25{background-color:#c1d7e8;}
-.niblue12{background-color:#e6eff6;}
-.niblue10{background-color:#e6eff6;}
-.black{background-color:#000;}
-.black60{background-color:#666666;}
-.black20{background-color:#cccccc;}
-.black12{background-color:#e0e0e0;}
-.black10{background-color:#e5e5e5;}
-.black5{background-color:#f2f2f2;}
-.beer{background-color:#FFBB00;}
-.beer60{background-color:#FFD666;}
-.beer55{background-color:#ffda73;}
-.beer50{background-color:#FFDD7F;}
-.beer25{background-color:#FFEEBF;}
-.beer12{background-color:#FFF7E0;}
+th {
+    text-align:left;
+}
 
-.wrapper{width:752px;}
-#bodycontainer{width:750px;}
-#logo{width:750px;}
-#search{text-align:right;float:right;padding-top:1em;width:70%;margin:0;}
-#footer{clear:both;margin:25px 0;padding-top:10px;font-size:10px;background:url(http://www.ni.com/images/global/us/dot_line.gif) repeat-x;}
-.copyright{font-size:9px;letter-spacing:0;color:#959595;}
+sup {
+    font-size:10px;
+}
 
-h1 span{position: absolute;left:-2000px;}
-.wayfineprint{font-size:9px;letter-spacing:1px;font-family:Arial, Helvetica, sans-serif;}
-.globalbar1{background:url(/images/global/us/globalbar.gif) repeat-x;background-color:#6C96CE;}
-.titlebar{padding:3px;padding-left:5px;color:#000;font-size:11px;font-weight:bold;margin-top:0;}
-.header3{padding:4px;font-size:11px;font-weight:bold;margin-top:0;}
-.header4{padding:4px;border-bottom:1px solid #ccc;font-size:11px;font-weight:bold;margin-top:0;}
-.header5{padding:4px;border-bottom:1px solid #ccc;font-size:11px;font-weight:bold;color:#000;margin-top:0;}
-.header6{padding:4px;border-top:1px solid #ccc;font-size:11px;font-weight:bold;color:#000;margin-top:0;}
+pre {
+    font-size:11px;
+    font-family:Courier, fixed-width;
+    font-weight:400;
+    color: #000;
+}
 
-.smallbullet ul{margin:0;padding:0;list-style-type:none;}
-.smallbullet li{background: url(/images/global/us/bullet_nopad.gif) no-repeat;background-position: 5px -1px;font-size:11px;padding-left:17px;line-height:1.2;margin-bottom:6px;}
-.smallbulletbigtext ul{margin:0;padding:0;list-style-type:none;}
-.smallbulletbigtext li{background: url(/images/global/us/bullet_nopad.gif) no-repeat;background-position: 5px -1px;font-size:11px;padding-left:17px;line-height:1.2;margin-bottom:6px;}
+em {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 22px;
+    color: #000000;
+    margin: 8px 0 0;
+}
+
+h2 {
+    font-size: 18px;
+    color: #000000;
+    margin: 6px 0 0;
+}
+
+h3 {
+    font-size: 14px;
+    color: #000000;
+    margin: 4px 0 0;
+}
+
+h4 {
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+h5 {
+    font-size: 11px;
+    margin: 2px 0;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+a:link {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #884488;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3366cc;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #807820;
+    text-decoration: none;
+}
+
+h1 span {
+    position: absolute;
+    left: -2000px;
+}
+
