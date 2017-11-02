@@ -7,7 +7,7 @@
 </head>
 <body bgcolor="#ffffff">
 <a name="labpack.lvlib:to msgpack.vi"></a><h2>To Msgpack VI</h2>
-<p>Converts <b>Anything</b> to MessagePack data. By default, byte arrays are treated as binary blobs and encoded as the MessagePack binary type.</p>
+<p>Converts <strong>Anything</strong> to MessagePack data. By default, byte arrays are treated as binary blobs and encoded as the MessagePack binary type.</p>
 <p><img src="images/labpack_lvlib_to_msgpackc.png" alt="labpack.lvlib:to msgpack.vi"></p>
 <hr>
 <table>
@@ -16,7 +16,7 @@
 <p><img src="images/cfxdt.png" alt="cfxdt"></p>
 </td>
 <td>
-    <p><b>Anything</b> is any type can be provided, but clusters work the best. If a cluster is used, then all elements must have a label. Clusters are encoded as MessagePack maps (key-value pairs), where the label is the key.</p>
+    <p><strong>Anything</strong> is any type can be provided, but clusters work the best. If a cluster is used, then all elements must have a label. Clusters are encoded as MessagePack maps (key-value pairs), where the label is the key.</p>
 </td>
 </tr>
 </table>
@@ -26,7 +26,7 @@
 <p><img src="images/cerrcodeclst.png" alt="cerrcodeclst"></p>
 </td>
 <td>
-    <p><b>Error In</b> describes error conditions that occur before this node runs. This input provides standard error in functionality.</p>
+    <p><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</p>
 </td>
 </tr>
 </table>
@@ -36,7 +36,7 @@
 <p><img src="images/cbool.png" alt="cbool"></p>
 </td>
 <td>
-    <p><b>Byte Array as Blobs</b> configures the VI to handle byte arrays as binary blobs or as an array of U8 elements. If TRUE, then byte arrays (arrays with U8 elements) are treated and encoded as binary blobs instead of array. This can be more efficient. Binary data is represented in LabVIEW as arrays of U8 elements. It is possible to also have array of U8 elements as a compound type in the MessagePack format. If FALSE, then byte arrays are encoded as MessagePack arrays instead of binary data.</p>
+    <p><strong>Byte Array as Blobs</strong> configures the VI to handle byte arrays as binary blobs or as an array of U8 elements. If TRUE, then byte arrays (arrays with U8 elements) are treated and encoded as binary blobs instead of array. This can be more efficient. Binary data is represented in LabVIEW as arrays of U8 elements. It is possible to also have array of U8 elements as a compound type in the MessagePack format. If FALSE, then byte arrays are encoded as MessagePack arrays instead of binary data.</p>
 </td>
 </tr>
 </table>
@@ -46,7 +46,7 @@
 <p><img src="images/cpath.png" alt="cpath"></p>
 </td>
 <td>
-    <p><b>LabPack Shared Library</b> is the absolute path to the LabPack shared library (DLL, dylib, or SO). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</p>
+    <p><strong>LabPack Shared Library</strong> is the absolute path to the LabPack shared library (DLL, dylib, or SO). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</p>
 </td>
 </tr>
 </table>
@@ -56,7 +56,7 @@
 <p><img src="images/ierrcodeclst.png" alt="ierrcodeclst"></p>
 </td>
 <td>
-    <p><b>Error Out</b> contains error information. This output provides standard error out functionality.</p>
+    <p><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</p>
 </td>
 </tr>
 </table>
@@ -66,7 +66,7 @@
 <p><img src="images/i1du8.png" alt="i1du8"></p>
 </td>
 <td>
-    <p><b>Msgpack Data</b> is the MessagePack data. Since the MessagePack specification is a binary format, the data is provided as a byte array.</p>
+    <p><strong>Msgpack Data</strong> is the MessagePack data. Since the MessagePack specification is a binary format, the data is provided as a byte array.</p>
 </td>
 </tr>
 </table>
