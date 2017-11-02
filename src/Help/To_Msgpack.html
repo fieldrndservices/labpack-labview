@@ -1,13 +1,13 @@
 <HTML>
 <HEAD>
-<TITLE>LabPack.lvlib:To Msgpack.vi</TITLE>
+<TITLE>To Msgpack VI</TITLE>
 <META NAME="Author" CONTENT="">
 <META NAME="GENERATOR" CONTENT="G Development Environment">
 <LINK rel="stylesheet" href="css/ni.css">
 </HEAD>
 <BODY BGCOLOR="#FFFFFF">
-<A NAME="LabPack.lvlib:To Msgpack.vi"></A><H2>LabPack.lvlib:To Msgpack.vi</H2>
-<P>Converts &lt;b&gt;Anything&lt;/b&gt; to MessagePack data. By default, byte arrays are treated as binary blobs and encoded as the MessagePack binary type.</P>
+<A NAME="LabPack.lvlib:To Msgpack.vi"></A><H2>To Msgpack VI</H2>
+<P>Converts <B>Anything</B> to MessagePack data. By default, byte arrays are treated as binary blobs and encoded as the MessagePack binary type.</P>
 <P><IMG SRC="images/LabPack_lvlib_To_Msgpackc.png" ALT="LabPack.lvlib:To Msgpack.vi"></P>
 <HR>
 <Table>
@@ -16,7 +16,7 @@
 <P><IMG SRC="images/cfxdt.png" ALT="cfxdt"></P>
 </TD>
 <TD>
-<B>Anything</B> <P>Any type can be provided, but clusters work the best. If a cluster is used, then all elements must have a label. Clusters are encoded as MessagePack maps (key-value pairs), where the label is the key.</P>
+    <P><B>Anything</B> is any type can be provided, but clusters work the best. If a cluster is used, then all elements must have a label. Clusters are encoded as MessagePack maps (key-value pairs), where the label is the key.</P>
 </TD>
 </TR>
 </Table>
@@ -26,55 +26,17 @@
 <P><IMG SRC="images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
 </TD>
 <TD>
-<B>Error In</B> <P>Describes error conditions that occur before this node runs. This input provides standard error in functionality. </P>
+    <P><B>Error In</B> describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
 </TD>
 </TR>
 </Table>
-<UL>
 <Table>
 <TR valign=TOP>
 <TD>
 <P><IMG SRC="images/cbool.png" ALT="cbool"></P>
 </TD>
 <TD>
-<B>status</B> <P><B>status</B> is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred.</P>
-<P></P>
-<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/ci32.png" ALT="ci32"></P>
-</TD>
-<TD>
-<B>code</B> <P><B>code</B> is the error or warning code.</P>
-<P></P>
-<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cstr.png" ALT="cstr"></P>
-</TD>
-<TD>
-<B>source</B> <P><B>source</B> describes the origin of the error or warning.</P>
-<P></P>
-<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
-</TD>
-</TR>
-</Table>
-</UL>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/cbool.png" ALT="cbool"></P>
-</TD>
-<TD>
-<B>Byte Array as Blobs</B> <P>If TRUE, then byte arrays (arrays with U8 elements) are treated and encoded as binary blobs instead of array. This can be more efficient. Binary data is represented in LabVIEW as arrays of U8 elements. It is possible to also have array of U8 elements as a compound type in the MessagePack format. If FALSE, then byte arrays are encoded as MessagePack arrays instead of binary data.</P>
+    <P><B>Byte Array as Blobs</B> configures the VI to handle byte arrays as binary blobs or as an array of U8 elements. If TRUE, then byte arrays (arrays with U8 elements) are treated and encoded as binary blobs instead of array. This can be more efficient. Binary data is represented in LabVIEW as arrays of U8 elements. It is possible to also have array of U8 elements as a compound type in the MessagePack format. If FALSE, then byte arrays are encoded as MessagePack arrays instead of binary data.</P>
 </TD>
 </TR>
 </Table>
@@ -84,7 +46,7 @@
 <P><IMG SRC="images/cpath.png" ALT="cpath"></P>
 </TD>
 <TD>
-<B>LabPack Shared Library</B> <P>The absolute path to the LabPack shared library (DLL, dylib, or SO). If &lt;Not a Path&gt; is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as &quot;/usr/lib&quot; on Unix-like systems. The first valid path to the shared library will be used.</P>
+    <P><B>LabPack Shared Library</B> is the absolute path to the LabPack shared library (DLL, dylib, or SO). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</P>
 </TD>
 </TR>
 </Table>
@@ -94,69 +56,19 @@
 <P><IMG SRC="images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
 </TD>
 <TD>
-<B>Error Out</B> <P>Contains error information. This output provides standard error out functionality. </P>
+    <P><B>Error Out</B> contains error information. This output provides standard error out functionality.</P>
 </TD>
 </TR>
 </Table>
-<UL>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/ibool.png" ALT="ibool"></P>
-</TD>
-<TD>
-<B>status</B> <P><B>status</B> is TRUE (X) if an error occurred or FALSE (checkmark) to indicate a warning or that no error occurred.</P>
-<P></P>
-<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/ii32.png" ALT="ii32"></P>
-</TD>
-<TD>
-<B>code</B> <P><B>code</B> is the error or warning code.</P>
-<P></P>
-<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
-</TD>
-</TR>
-</Table>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/istr.png" ALT="istr"></P>
-</TD>
-<TD>
-<B>source</B> <P><B>source</B> describes the origin of the error or warning.</P>
-<P></P>
-<P>Right-click the <B>error in</B> control on the front panel and select <B>Explain Error</B> or <B>Explain Warning</B> from the shortcut menu for more information about the error.</P>
-</TD>
-</TR>
-</Table>
-</UL>
 <Table>
 <TR valign=TOP>
 <TD>
 <P><IMG SRC="images/i1du8.png" ALT="i1du8"></P>
 </TD>
 <TD>
-<B>Msgpack Data</B> <P>The MessagePack data. Since the MessagePack specification is binary format, the data is provided as a byte array.</P>
+    <P><B>Msgpack Data</B> is the MessagePack data. Since the MessagePack specification is a binary format, the data is provided as a byte array.</P>
 </TD>
 </TR>
 </Table>
-<UL>
-<Table>
-<TR valign=TOP>
-<TD>
-<P><IMG SRC="images/iu8.png" ALT="iu8"></P>
-</TD>
-<TD>
-<B></B> <P>Bytes</P>
-</TD>
-</TR>
-</Table>
-</UL>
 </BODY>
 </HTML>
