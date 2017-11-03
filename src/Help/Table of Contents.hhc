@@ -13,16 +13,16 @@
 		<param name="Local" value="LabPack.html">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="VI Reference Documentation">
+		<param name="Name" value="VI and Control Reference">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="To MsgPack">
-			<param name="Local" value="To_Msgpack.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="From Msgpack">
 			<param name="Local" value="From_Msgpack.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="To MsgPack">
+			<param name="Local" value="To_Msgpack.html">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Utility">
@@ -56,6 +56,7 @@
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Reader">
+			<param name="Local" value="Reader.html">
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
@@ -63,15 +64,15 @@
 				<param name="Local" value="Reader_Begin.html">
 				</OBJECT>
 		</UL>
-	</UL>
-	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Controls">
-		</OBJECT>
-	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Status">
-			<param name="Local" value="Statusctl.html">
+			<param name="Name" value="Controls">
 			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Status">
+				<param name="Local" value="Statusctl.html">
+				</OBJECT>
+		</UL>
 	</UL>
 </UL>
 </BODY></HTML>
