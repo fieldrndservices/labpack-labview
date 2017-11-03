@@ -1,17 +1,29 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en">
 <html>
 <head>
 <title>Version Minor VI</title>
-<meta name="author" content="">
-<meta name="generator" content="g development environment">
-<link rel="stylesheet" href="css/ni.css">
+<meta name="author" content="Field R&D Services, LLC">
+<meta name="generator" content="G Development Environment">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="css/minimal.css">
+<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="js/cssframes.js" type="text/javascript"></script>
+<link media="print" rel="stylesheet" type="text/css" href="print.css">
 </head>
 <body bgcolor="#ffffff">
-<a name="labpack.lvlib:version minor.vi"></a><h2>Version Minor VI</h2>
-<p>Gets the Minor version number of the LabPack shared library. The LabPack shared library maintains a semantic versioning number with a Major, Minor, and Patch component. A difference in the Major number indicates backwards compatible breaking changes. A difference in the Minor number indicates new features and fixes that do not break backwards compatibility. A difference in the Patch number indicates a fix that does not break backwards compatibility and does not add any new features.</p>
-<p><img src="images/labpack_lvlib_version_minorc.png" alt="labpack.lvlib:version minor.vi"></p>
-<hr>
-<table>
-<tr valign=top>
+
+<div id="styleDivTitle">
+<h1>Version Minor VI</h1>
+    <p class="Body"><strong>Owning Palette:</strong> <a href="LabPack.chm::/Utility.html">Utility VIs</a></p>
+    <p class="Body"><strong>Requires:</strong> LabPack</p>
+    <p class="Body">Gets the Minor version number of the LabPack shared library. The LabPack shared library maintains a semantic versioning number with a Major, Minor, and Patch component. A difference in the Major number indicates backwards compatible breaking changes. A difference in the Minor number indicates new features and fixes that do not break backwards compatibility. A difference in the Patch number indicates a fix that does not break backwards compatibility and does not add any new features.</p>
+    <p class="Anchor"><img src="images/LabPack_lvlib_Version_Minorc.png" alt="Version Minor VI"></p>
+</div>
+
+<div id="styleDivScrolling">
+<table class="Borderless">
+<tr>
 <td>
 <p><img src="images/cerrcodeclst.png" alt="cerrcodeclst"></p>
 </td>
@@ -21,17 +33,17 @@
 </tr>
 </table>
 <table>
-<tr valign=top>
+<tr>
 <td>
 <p><img src="images/cpath.png" alt="cpath"></p>
 </td>
 <td>
-    <p><strong>LabPack Shared Library</strong> is the absolute path to the LabPack shared library (DLL, dylib, or SO). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</p>
+    <p><strong>LabPack Shared Library</strong> is the absolute path to the LabPack shared library (<abbr title="Dynamic Link Library">DLL</abbr>, <abbr title="Dynamic Library">dylib</abbr>, or <abbr title="Shared Object">SO</abbr>). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</p>
 </td>
 </tr>
 </table>
 <table>
-<tr valign=top>
+<tr>
 <td>
 <p><img src="images/ierrcodeclst.png" alt="ierrcodeclst"></p>
 </td>
@@ -41,7 +53,7 @@
 </tr>
 </table>
 <table>
-<tr valign=top>
+<tr>
 <td>
 <p><img src="images/iu32.png" alt="iu32"></p>
 </td>
@@ -50,5 +62,7 @@
 </td>
 </tr>
 </table>
+</div>
+
 </body>
 </html>
