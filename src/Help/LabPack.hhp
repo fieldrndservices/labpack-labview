@@ -2,7 +2,7 @@
 Compatibility=1.1 or later
 Compiled file=LabPack.chm
 Contents file=Table of Contents.hhc
-Default topic=LabPack.html
+Default topic=Readme.html
 Display compile progress=No
 Index file=Index.hhk
 Language=0x409 English (United States)
@@ -22,6 +22,7 @@ Version_Patch.html
 Version_Text.html
 Reader_Begin.html
 Utility.html
+Readme.html
 
 [INFOTYPES]
 
