@@ -26,6 +26,7 @@
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Utility">
+			<param name="Local" value="Utility.html">
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
