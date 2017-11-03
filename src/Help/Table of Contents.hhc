@@ -66,6 +66,7 @@
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Controls">
+			<param name="Local" value="Controls.html">
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
