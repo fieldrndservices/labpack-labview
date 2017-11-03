@@ -19,10 +19,10 @@
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Simple.vi" Type="VI" URL="../src/Examples/Simple.vi"/>
+			<Item Name="Writer-Reader.vi" Type="VI" URL="../src/Examples/Writer-Reader.vi"/>
 		</Item>
 		<Item Name="LabPack.lvlib" Type="Library" URL="../src/LabPack/LabPack.lvlib"/>
 		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
-		<Item Name="Writer-Reader.vi" Type="VI" URL="../src/Examples/Writer-Reader.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel (Bool)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (Bool)__ogtk.vi"/>
