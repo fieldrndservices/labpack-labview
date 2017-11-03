@@ -24,72 +24,44 @@
 <div id="styleDivScrolling">
 <table class="Borderless">
 <tr>
-<td>
-<p><img src="images/cerrcodeclst.png" alt="cerrcodeclst"></p>
-</td>
-<td>
-    <p><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality. </p>
-</td>
+<td class="Icon"><img src="images/cerrcodeclst.png" alt="cerrcodeclst"></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
 </tr>
 </table>
 <table>
 <tr>
-<td>
-<p><img src="images/cpath.png" alt="cpath"></p>
-</td>
-<td>
-    <p><strong>LabPack Shared Library</strong> is the absolute path to the LabPack shared library (<abbr title="Dynamic Link Library">DLL</abbr>, <abbr title="Dynamic Library">dylib</abbr>, or <abbr title="Shared Object">SO</abbr>). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</p>
-</td>
+<td class="Icon"><img src="images/cpath.png" alt="cpath"></td>
+<td><strong>LabPack Shared Library</strong> is the absolute path to the LabPack shared library (<abbr title="Dynamic Link Library">DLL</abbr>, <abbr title="Dynamic Library">dylib</abbr>, or <abbr title="Shared Object">SO</abbr>). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</td>
 </tr>
 </table>
 <table>
 <tr>
-<td>
-<p><img src="images/c1du8.png" alt="c1du8"></p>
-</td>
-<td>
-    <p><strong>Msgpack Data</strong> is the binary data encoded according to the MessagePack specification.</p>
-</td>
+<td class="Icon"><img src="images/c1du8.png" alt="c1du8"></td>
+<td><strong>Msgpack Data</strong> is the binary data encoded according to the MessagePack specification.</td>
 </tr>
 </table>
 <table>
 <tr>
-<td>
-<p><img src="images/cfxdt.png" alt="cfxdt"></p>
-</td>
-<td>
-    <p><strong>Types and Defaults</strong> is the structure, or schema, of the MessagePack data. Schema-less decoding, i.e. arbitrary decoding, is currently not supported. The values are replaced with the values from the MessagePack data.</p>
-</td>
+<td class="Icon"><img src="images/cfxdt.png" alt="cfxdt"></td>
+<td><strong>Types and Defaults</strong> is the structure, or schema, of the MessagePack data. Schema-less decoding, i.e. arbitrary decoding, is currently not supported. The values are replaced with the values from the MessagePack data.</td>
 </tr>
 </table>
 <table>
 <tr>
-<td>
-<p><img src="images/cbool.png" alt="cbool"></p>
-</td>
-<td>
-    <p><strong>Byte Array as Blobs</strong> configures the VI to handle byte arrays as binary blobs or as an array of U8 elements. If TRUE, then byte arrays (arrays with U8 elements) are treated and decoded as binary blobs instead of the array. This can be more efficient. Binary data is represented in LabVIEW as arrays of U8 elements. It is possible to also have array of U8 elements as a compound type in the MessagePack format. If FALSE, then byte arrays are decoded as MessagePack arrays instead of binary data.</p>
-</td>
+<td><img src="images/cbool.png" alt="cbool"></td>
+<td><strong>Byte Array as Blobs</strong> configures the VI to handle byte arrays as binary blobs or as an array of U8 elements. If TRUE, then byte arrays (arrays with U8 elements) are treated and decoded as binary blobs instead of the array. This can be more efficient. Binary data is represented in LabVIEW as arrays of U8 elements. It is possible to also have array of U8 elements as a compound type in the MessagePack format. If FALSE, then byte arrays are decoded as MessagePack arrays instead of binary data.</td>
 </tr>
 </table>
 <table>
 <tr>
-<td>
-<p><img src="images/ierrcodeclst.png" alt="ierrcodeclst"></p>
-</td>
-<td>
-    <p><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</p>
-</td>
+<td class="Icon"><img src="images/ierrcodeclst.png" alt="ierrcodeclst"></td>
+<td><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</td>
 </tr>
 </table>
 <table>
 <tr>
-<td>
-<p><img src="images/ifxdt.png" alt="ifxdt"></p>
-</td>
-<td>
-    <p><strong>Value</strong> is the MessagePack data decoded according to the schema provided in the <strong>Types and Defaults</strong>. The values are replaced with the values from the MessagePack data. The Variant to Data VI can be used to obtain the values.</p>
-</td>
+<td class="Icon"><img src="images/ifxdt.png" alt="ifxdt"></td>
+<td><strong>Value</strong> is the MessagePack data decoded according to the schema provided in the <strong>Types and Defaults</strong>. The values are replaced with the values from the MessagePack data. The Variant to Data VI can be used to obtain the values.</td>
 </tr>
 </table>
 </div>
