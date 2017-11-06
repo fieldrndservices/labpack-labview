@@ -42,6 +42,10 @@
 				<param name="Name" value="Create">
 				<param name="Local" value="pages\Reader\Create.html">
 				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Destroy Reference">
+				<param name="Local" value="pages\Reader\Destroy_Reference.html">
+				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Utility">
