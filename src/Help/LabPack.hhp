@@ -2,28 +2,30 @@
 Compatibility=1.1 or later
 Compiled file=..\..\builds\Help\LabPack.chm
 Contents file=Table of Contents.hhc
-Default topic=Readme.html
+Default topic=html\Readme.html
 Display compile progress=No
-Error log file=d:\Users\cfield\Code\MessagePack\LabPack\LabVIEW\trunk\builds\Help\LabPack.log
+Error log file=..\..\builds\Help\LabPack.log
 Index file=Index.hhk
 Language=0x409 English (United States)
 Title=LabPack
 
 
 [FILES]
-LabPack.html
-From_Msgpack.html
-Status_Code.html
-Status_String.html
-Statusctl.html
-To_Msgpack.html
-Version_Major.html
-Version_Minor.html
-Version_Patch.html
-Version_Text.html
-Reader_Begin.html
-Utility.html
-Readme.html
+html\Controls.html
+html\From_Msgpack.html
+html\LabPack.html
+html\Reader.html
+html\Reader_Begin.html
+html\Readme.html
+html\Status_Code.html
+html\Status_String.html
+html\Statusctl.html
+html\To_Msgpack.html
+html\Utility.html
+html\Version_Major.html
+html\Version_Minor.html
+html\Version_Patch.html
+html\Version_Text.html
 
 [INFOTYPES]
 
