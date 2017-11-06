@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
 <html>
 <head>
-<title>Create VI</title>
+<title>Destroy Reference VI</title>
 <meta name="author" content="Field R&D Services, LLC">
 <meta name="generator" content="G Development Environment">
 <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
@@ -14,26 +14,26 @@
 <body bgcolor="#ffffff">
 
 <div id="styleDivTitle">
-<h1>Create VI</h1>
+<h1>Destroy Reference VI</h1>
     <p class="Body"><strong>Owning Palette:</strong> <a href="Reader.html">Reader VIs</a></p>
     <p class="Body"><strong>Requires:</strong> LabPack</p>
-    <p class="Body">Creates a default object of the Reader class for reading and decoding MessagePack data.</p>
-    <p class="Anchor"><img src="/images/LabPack_lvlib_Reader_lvclass_Createc.png" alt="Create VI" border="0"></p>
+    <p class="Body">Destroys a reference to a Reader class object. This may free resources associated with the reference but not necessarily the object.</p>
+    <p class="Anchor"><img src="/images/LabPack_lvlib_Reader_lvclass_Destroy_Referencec.png" alt="Destroy Reference VI" border="0"></p>
 </div>
 
 <div id="styleDivScrolling">
 <table class="Borderless">
 <tr>
-<td class="Icon"><img src="/images/cpath.png" alt="cpath"></td>
-<td><strong>LabPack Shared Library</strong>The absolute path to the LabPack shared library (<abbr title="Dynamic Link Library">DLL</abbr>, <abbr title="Dynamic Library">dylib</abbr>, or <abbr title="Shared Object">SO</abbr>). If <code>&lt;Not a Path&gt;</code> is provided, then the LabPack LabVIEW library will search for the shared library in the current VI's directory, the source (src) folder of the project, and the system-specific library directory, such as <code>/usr/lib</code> on Unix-like systems. The first valid path to the shared library will be used.</td>
+<td class="Icon"><img src="/images/cdatavalref.png" alt="cdatavalref"></td>
+<td><strong>Reader In</strong> is a Data Value Reference (DVR) to an object of the Reader class.</td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
-<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides <a href="ms-its:C:\Program Files (x86)\National Instruments\LabVIEW 2017\help\lvconcepts.chm::/using_standard_error_in.html">standard error in</a> functionality.</td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. With the following exception, this input provides <a href="ms-its:C:\Program Files (x86)\National Instruments\LabVIEW 2017\help\lvconcepts.chm::/using_standard_error_in.html">standard error in</a> functionality. <p>This node runs normally <em>even if</em> an error occurred before this node runs.</p></td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/iLabPack_lvlib_Readerlvclass.png" alt="iLabPack_lvlib_Readerlvclass"></td>
-<td><strong>Reader</strong> is a Reader class object for decoding MessagePack data.</td>
+<td><strong>Reader Out</strong> is an object of the Reader class.</td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
