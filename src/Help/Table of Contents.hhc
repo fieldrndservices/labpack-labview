@@ -34,6 +34,10 @@
 				<param name="Name" value="Begin">
 				<param name="Local" value="pages\Reader\Begin.html">
 				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Create Reference">
+				<param name="Local" value="pages\Reader\Create_Reference.html">
+				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Utility">
