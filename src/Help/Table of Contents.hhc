@@ -56,6 +56,10 @@
 				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Writer">
+			<param name="Local" value="pages\Writer\Writer.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Utility">
 			<param name="Local" value="pages/Utility.html">
 			</OBJECT>
