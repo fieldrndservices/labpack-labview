@@ -2,30 +2,13 @@
 Compatibility=1.1 or later
 Compiled file=..\..\builds\Help\LabPack.chm
 Contents file=Table of Contents.hhc
-Default topic=html\Readme.html
+Default topic=pages\Readme.html
 Display compile progress=No
 Error log file=..\..\builds\Help\LabPack.log
 Index file=Index.hhk
 Language=0x409 English (United States)
 Title=LabPack
 
-
-[FILES]
-html\Controls.html
-html\From_Msgpack.html
-html\LabPack.html
-html\Reader.html
-html\Reader_Begin.html
-html\Readme.html
-html\Status_Code.html
-html\Status_String.html
-html\Statusctl.html
-html\To_Msgpack.html
-html\Utility.html
-html\Version_Major.html
-html\Version_Minor.html
-html\Version_Patch.html
-html\Version_Text.html
 
 [INFOTYPES]
 
