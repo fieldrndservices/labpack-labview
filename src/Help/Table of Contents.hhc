@@ -50,6 +50,10 @@
 				<param name="Name" value="Destroy">
 				<param name="Local" value="pages\Reader\Destroy.html">
 				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="End">
+				<param name="Local" value="pages\Reader\End.html">
+				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Utility">
