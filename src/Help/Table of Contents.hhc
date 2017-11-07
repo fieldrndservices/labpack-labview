@@ -57,8 +57,34 @@
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Writer">
-			<param name="Local" value="pages\Writer\Writer.html">
+            <param name="Local" value="pages\Writer\Writer.html">
 			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Begin">
+				<param name="Local" value="pages\Writer\Begin.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Create Reference">
+				<param name="Local" value="pages\Writer\Create_Reference.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Create">
+				<param name="Local" value="pages\Writer\Create.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Destroy Reference">
+				<param name="Local" value="pages\Writer\Destroy_Reference.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Destroy">
+				<param name="Local" value="pages\Writer\Destroy.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="End">
+				<param name="Local" value="pages\Writer\End.html">
+				</OBJECT>
+		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Utility">
 			<param name="Local" value="pages/Utility.html">
