@@ -309,13 +309,13 @@
 				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Data</Property>
 				<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
 				<Item Name="Read Data.vi" Type="VI" URL="../Public/Data/Read Data.vi">
-					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!5!"1!!%E"!!!(`````!!5%2'&amp;U91!!.%"Q!"Y!!"Y.4'&amp;C5'&amp;D;SZM&gt;GRJ9AZ8=GFU:8)O&lt;(:D&lt;'&amp;T=Q!!#F&gt;S;82F=C"0&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!S1(!!(A!!(AV-97*197.L,GRW&lt;'FC$F&gt;S;82F=CZM&gt;G.M98.T!!!*6X*J&gt;'6S)%FO!'%!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!"!!*!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
+					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!5!"1!!%E"!!!(`````!!5&amp;6G&amp;M&gt;75!.%"Q!"Y!!"Y.4'&amp;C5'&amp;D;SZM&gt;GRJ9AZ8=GFU:8)O&lt;(:D&lt;'&amp;T=Q!!#F&gt;S;82F=C"0&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!S1(!!(A!!(AV-97*197.L,GRW&lt;'FC$F&gt;S;82F=CZM&gt;G.M98.T!!!*6X*J&gt;'6S)%FO!'%!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!"!!*!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-					<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 				</Item>
 			</Item>
 			<Item Name="Data Size" Type="Property Definition">
@@ -323,13 +323,13 @@
 				<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Data Size</Property>
 				<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
 				<Item Name="Read Data Size.vi" Type="VI" URL="../Public/Data/Read Data Size.vi">
-					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%V!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!^!#!!*2'&amp;U93"4;8JF!$2!=!!?!!!?$5RB9F"B9WMO&lt;(:M;7)/6X*J&gt;'6S,GRW9WRB=X-!!!J8=GFU:8)A4X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!-E"Q!"Y!!"Y.4'&amp;C5'&amp;D;SZM&gt;GRJ9AZ8=GFU:8)O&lt;(:D&lt;'&amp;T=Q!!#6&gt;S;82F=C"*&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
+					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!!N!#!!&amp;1W^V&lt;H1!.%"Q!"Y!!"Y.4'&amp;C5'&amp;D;SZM&gt;GRJ9AZ8=GFU:8)O&lt;(:D&lt;'&amp;T=Q!!#F&gt;S;82F=C"0&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!S1(!!(A!!(AV-97*197.L,GRW&lt;'FC$F&gt;S;82F=CZM&gt;G.M98.T!!!*6X*J&gt;'6S)%FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-					<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 				</Item>
 			</Item>
 		</Item>
