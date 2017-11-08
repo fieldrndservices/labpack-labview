@@ -40,7 +40,19 @@
 <li>Linux</li>
 <li>Linux RT</li>
 </ul>
-<p><strong>Note</strong>, this library uses a shared library to encode and decode MessagePack data. Pre-compiled shared libraries for all listed systems are provided with the vipm.</p>
+<p>Note, this library uses a shared library to encode and decode MessagePack data. Pre-compiled shared libraries for all systems listed above are provided with the vipm at <code>&lt;LabPack Install Location&gt;\LabPack\Private</code>. Pre-compiled shared libraries for all supported operating systems and CPUs are also available at <a href="https://github.com/fieldrndservices/labpack-c/releases">https://github.com/fieldrndservices/labpack-c/releases</a>. If LabPack is used within a real-time application or executable, the appropriate shared library must be installed on the remote target system. If an absolute path to the LabPack shared library is not passed to the appropriate <code>LabPack Shared Library</code> input, then the LabPack LabVIEW library will search for the shared library in the following locations:</p>
+<ul>
+    <li>The directory containing the executable (exe)</li>
+    <li>The directory containing the project file (lvproj)</li>
+    <li>The <code>libs</code> directory in the same parent directory containing the executable or project</li>
+    <li>The <code>libs/LabPack</code> directory in the same parent directory containing the excutable or project</li>
+    <li>The <code>data</code> directory in the same parent directory as the executable or project</li>
+    <li>The directory of the parent VI</li>
+    <li>The <code>src/LabPack/Private</code> folder where the shared library is distributed with the LabPack LabVIEW library</li>
+    <li>The default system location for shared objects, i.e. on Unix-like systems this would be <code>/usr/lib</code>.</li>
+</ul>
+<p>The easiest way to ensure the shared library is installed and discoverable by the LabVIEW library is to include the appropriate shared library in the build specification and place it in the default support directory, i.e. <code>data</code>, as this is included in the above list of search locations.</p>
+<p>The name of the shared library depends on the operating system and CPU. For Windows, the shared library is named either <code>labpack.dll</code> (for 32-bit environments) or <code>labpack-x64.dll</code> (for 64-bit environments). The shared library is named <code>liblabpack.dylib</code> for macOS, and it is named <code>liblabpack.so</code> for Linux. For NI Linux RT, the shared library is named either <code>liblabpack-rt.so</code> (for x86_64 CPUs) or <code>liblabpack-arm-rt.so</code> (for ARM CPUs).</p>
 <h3>NI Application Software Support </h3>
 <p>The following table lists the NI application software versions supported by LabPack LabVIEW Library 1.0.0.</p>
 <table>
@@ -50,15 +62,15 @@
 </tr>
 <tr align="center">
 <td align="left">LabVIEW</td>
-<td>2009 and later</td>
+<td>2012 and later</td>
 </tr>
 </table>
+<a name="support"></a><h2>Contact Support</h2>
+<p>For more information please contact Field R&amp;D Services, LLC at <a href="mailto:support@fieldrndservices.com">support@fieldrndservices.com</a></p>
 <a name="disclaimer"></a><h2>Disclaimer</h2>
 <p>This library is provided "as-is" and no support is provided.</p>
-<hr>
-<a name="copyright"></a><h3><strong>Copyright</strong></h3>
-<p>Copyright (c) 2017 Field R&amp;D Services, LLC</p>
-<p>All rights reserved.</p>
+<a name="copyright"></a><h2>Copyright</h2>
+<p>Copyright &copy; 2017 Field R&amp;D Services, LLC. All rights reserved.</p>
 <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
 <ol>
 <li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
@@ -67,5 +79,40 @@
 </ol>
 <p>THIS SOFTWARE IS PROVIDED BY Field R&amp;D Services, LLC ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Field R&amp;D Services, LLC BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </p>
+<p>Third-party maintained and licensed projects used by LabPack include:</p>
+<ul>
+    <li><a href="#caraya">Caraya</a>: Copyright &copy; 2015-2017 JKI</li>
+    <li><a href="#labpack-c">LabPack-C</a>: Copyright &copy; 2017 Field R&amp;D Services, LLC</li>
+</ul>
+<hr>
+<a name="caraya"></a><h3>Caraya: Assertion and unit test framework for LabVIEW</h3>
+<p>Copyright &copy; 2015-2017 JKI. All rights reserved. (<a href="https://github.com/JKISoftware/Caraya">https://github.com/JKISoftware/Caraya</a>)</p>
+<p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
+<ol>
+    <li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
+    <li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
+    <li>Neither the name of Caraya nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</li>
+</ol>
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE JKI OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+<hr>
+<a name="labpack-c"></a><h3>LabPack-C: A LabVIEW-friendly C library for encoding/decoding MessagePack data</h3>
+<p>Copyright &copy; 2017 Field R&amp;D Services, LLC. All rights reserved. (<a href="https://github.com/fieldrndservices/labpack-c">https://github.com/fieldrndservices/labpack-c</a>)</p>
+<p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
+<ol>
+    <li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
+    <li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
+    <li>Neither the name of LabPack, Field R&amp;D Services, nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</li>
+</ol>
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Field R&amp;D Services, LLC OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>  
+<p>Third-party maintained and licensed projects used by LabPack-C include:</p>
+<ul>
+    <li><a href="#mpack">mpack</a>: Copyright &copy; 2015-2016 Nicholas Fraser</li>
+</ul>
+<hr>
+<a name="mpack"></a><h3>mpack: A C encoder/decoder for the MessagePack serialization format</h3>
+<p>Copyright &copy; 2015-2016 Nicholas Fraser (<a href="https://github.com/ludocode/mpack">https://github.com/ludocode/mpack</a>)</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 </body>
 </html>
