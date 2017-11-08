@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
 <html>
 <head>
-<title>End VI</title>
+<title>Begin Str VI</title>
 <meta name="author" content="Field R&D Services, LLC">
 <meta name="generator" content="G Development Environment">
 <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
@@ -15,19 +15,19 @@
 <body bgcolor="#ffffff">
 
 <div id="styleDivTitle">
-<h1>End VI</h1>
+<h1>Begin Str VI</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="Reader.html">Reader VIs</a></p>
 <p class="Body"><strong>Requires:</strong> LabPack</p>
-<p class="Body">Finishes decoding MessagePack data. This must be called after reading all of the data to free resources and allow reuse of the object.</p>
-<p class="Anchor"><img src="/images/LabPack_lvlib_Reader_lvclass_Endc.png" alt="End VI" border="0"></p>
+<p class="Body">Starts decoding a string. An error will occur if the current MessagePack object in the data is not a string.</p>
+<p class="Anchor"><img src="/images/LabPack_lvlib_Reader_lvclass_Begin_Strc.png" alt="Begin Str VI"></p>
 <p class="Body">Use the pull-down menu to select an instance of this VI.</p>
 <table class="Borderless">
 <tr>
 <td>
 <select name="site" size="1" onchange="polyVISelectHandler(this)">
 <option value="">Select an instance</option>
-<option value="#parent">End (Value)</option>
-<option value="#instance1">End (Reference)</option>
+<option value="#parent">Begin Str (Value)</option>
+<option value="#instance1">Begin Str (Reference)</option>
 </select>
 </td>
 </tr>
@@ -35,29 +35,33 @@
 </div>
 
 <div id="styleDivScrolling">
-<h2><a name="parent">End (Value)</a></h2>
-<p class="Anchor"><img src="/images/LabPack_lvlib_Reader_lvclass_End_by_Valuec.png" alt="End (Value)"></p>
+<h2><a name="parent"></a>Begin Str (Value)</h2>
+<p class="Anchor"><img src="/images/LabPack_lvlib_Reader_lvclass_Begin_Str_by_Valuec.png" alt="Begin Str (Value)"></p>
 <table class="Borderless">
 <tr>
 <td class="Icon"><img src="/images/cLabPack_lvlib_Readerlvclass.png" alt="cLabPack_lvlib_Readerlvclass"></td>
-<td><strong>Reader In</strong> is an object of the Reader class.</td>
+<td><strong>Reader In</strong> is a Reader class object for decoding MessagePack data.</td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
-<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides <a href="ms-its:C:\Program Files (x86)\National Instruments\LabVIEW 2017\help\lvconcepts.chm::/using_standard_error_out.html">standard error in</a> functionality.</td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
-<td><strong>Error Out</strong> contains error information. This output provides <a href="ms-its:C:\Program Files (x86)\National Instruments\LabVIEW 2017\help\lvconcepts.chm::/using_standard_error_out.html">standard error out</a> functionality.</td>
+<td><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/iLabPack_lvlib_Readerlvclass.png" alt="iLabPack_lvlib_Readerlvclass"></td>
 <td><strong>Reader Out</strong> is the Reader class object for decoding MessagePack data.</td>
 </tr>
+<tr>
+<td class="Icon"><img src="/images/iu32.png" alt="iu32"></td>
+<td><strong>Length</strong> is the size of the string in bytes.</td>
+</tr>
 </table>
 
-<h2><a name="instance1">End (Reference)</a></h2>
-<p class="Anchor"><img src="/images/LabPack_lvlib_Reader_lvclass_End_by_Referencec.png" alt="End (Reference)"></p>
+<h2><a name="instance1"></a>Begin Str (Reference)</h2>
+<p class="Anchor"><img src="/images/LabPack_lvlib_Reader_lvclass_Begin_Str_by_Referencec.png" alt="Begin Str (Reference)"></p>
 <table class="Borderless">
 <tr>
 <td class="Icon"><img src="/images/cdatavalref.png" alt="cdatavalref"></td>
@@ -65,7 +69,7 @@
 </tr>
 <tr>
 <td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
-<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides <a href="ms-its:C:\Program Files (x86)\National Instruments\LabVIEW 2017\help\lvconcepts.chm::/using_standard_error_out.html">standard error in</a> functionality.</td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/idatavalref.png" alt="idatavalref"></td>
@@ -73,7 +77,11 @@
 </tr>
 <tr>
 <td class="Icon"><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
-<td><strong>Error Out</strong> contains error information. This output provides <a href="ms-its:C:\Program Files (x86)\National Instruments\LabVIEW 2017\help\lvconcepts.chm::/using_standard_error_out.html">standard error out</a> functionality.</td>
+<td><strong>Error Out</strong> contains error information. This output provides standard error out functionality.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/iu32.png" alt="iu32"></td>
+<td><strong>Length</strong> is the size of the string in bytes.</td>
 </tr>
 </table>
 </div>
