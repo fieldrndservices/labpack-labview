@@ -13,6 +13,10 @@
 		<Item Name="Build Shared Library Search Path.vi" Type="VI" URL="../Private/Build Shared Library Search Path.vi"/>
 		<Item Name="labpack-x64.dll" Type="Document" URL="../Private/labpack-x64.dll"/>
 		<Item Name="labpack.dll" Type="Document" URL="../Private/labpack.dll"/>
+		<Item Name="liblabpack-arm-rt.so" Type="Document" URL="../Private/liblabpack-arm-rt.so"/>
+		<Item Name="liblabpack-rt.so" Type="Document" URL="../Private/liblabpack-rt.so"/>
+		<Item Name="liblabpack.dylib" Type="Document" URL="../Private/liblabpack.dylib"/>
+		<Item Name="liblabpack.so" Type="Document" URL="../Private/liblabpack.so"/>
 		<Item Name="Read.vi" Type="VI" URL="../Private/Read.vi"/>
 		<Item Name="Write.vi" Type="VI" URL="../Private/Write.vi"/>
 	</Item>
