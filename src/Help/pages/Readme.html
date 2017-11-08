@@ -42,14 +42,14 @@
 </ul>
 <p>Note, this library uses a shared library to encode and decode MessagePack data. Pre-compiled shared libraries for all systems listed above are provided with the vipm at <code>&lt;LabPack Install Location&gt;\LabPack\Private</code>. Pre-compiled shared libraries for all supported operating systems and CPUs are also available at <a href="https://github.com/fieldrndservices/labpack-c/releases">https://github.com/fieldrndservices/labpack-c/releases</a>. If LabPack is used within a real-time application or executable, the appropriate shared library must be installed on the remote target system. If an absolute path to the LabPack shared library is not passed to the appropriate <code>LabPack Shared Library</code> input, then the LabPack LabVIEW library will search for the shared library in the following locations:</p>
 <ul>
-    <li>The directory containing the executable (exe)</li>
-    <li>The directory containing the project file (lvproj)</li>
-    <li>The <code>libs</code> directory in the same parent directory containing the executable or project</li>
-    <li>The <code>libs/LabPack</code> directory in the same parent directory containing the excutable or project</li>
-    <li>The <code>data</code> directory in the same parent directory as the executable or project</li>
-    <li>The directory of the parent VI</li>
-    <li>The <code>src/LabPack/Private</code> folder where the shared library is distributed with the LabPack LabVIEW library</li>
-    <li>The default system location for shared objects, i.e. on Unix-like systems this would be <code>/usr/lib</code>.</li>
+<li>The directory containing the executable (exe)</li>
+<li>The directory containing the project file (lvproj)</li>
+<li>The <code>libs</code> directory in the same parent directory containing the executable or project</li>
+<li>The <code>libs/LabPack</code> directory in the same parent directory containing the excutable or project</li>
+<li>The <code>data</code> directory in the same parent directory as the executable or project</li>
+<li>The directory of the parent VI</li>
+<li>The <code>src/LabPack/Private</code> folder where the shared library is distributed with the LabPack LabVIEW library</li>
+<li>The default system location for shared objects, i.e. on Unix-like systems this would be <code>/usr/lib</code>.</li>
 </ul>
 <p>The easiest way to ensure the shared library is installed and discoverable by the LabVIEW library is to include the appropriate shared library in the build specification and place it in the default support directory, i.e. <code>data</code>, as this is included in the above list of search locations.</p>
 <p>The name of the shared library depends on the operating system and CPU. For Windows, the shared library is named either <code>labpack.dll</code> (for 32-bit environments) or <code>labpack-x64.dll</code> (for 64-bit environments). The shared library is named <code>liblabpack.dylib</code> for macOS, and it is named <code>liblabpack.so</code> for Linux. For NI Linux RT, the shared library is named either <code>liblabpack-rt.so</code> (for x86_64 CPUs) or <code>liblabpack-arm-rt.so</code> (for ARM CPUs).</p>
@@ -81,21 +81,21 @@
 </p>
 <p>Third-party maintained and licensed projects used by LabPack include:</p>
 <ul>
-    <li><a href="#labpack-c">LabPack-C</a>: Copyright &copy; 2017 Field R&amp;D Services, LLC</li>
+<li><a href="#labpack-c">LabPack-C</a>: Copyright &copy; 2017 Field R&amp;D Services, LLC</li>
 </ul>
 <hr>
 <a name="labpack-c"></a><h3>LabPack-C: A LabVIEW-friendly C library for encoding/decoding MessagePack data</h3>
 <p>Copyright &copy; 2017 Field R&amp;D Services, LLC. All rights reserved. (<a href="https://github.com/fieldrndservices/labpack-c">https://github.com/fieldrndservices/labpack-c</a>)</p>
 <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
 <ol>
-    <li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
-    <li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
-    <li>Neither the name of LabPack, Field R&amp;D Services, nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</li>
+<li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
+<li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
+<li>Neither the name of LabPack, Field R&amp;D Services, nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</li>
 </ol>
 <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Field R&amp;D Services, LLC OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>  
 <p>Third-party maintained and licensed projects used by LabPack-C include:</p>
 <ul>
-    <li><a href="#mpack">mpack</a>: Copyright &copy; 2015-2016 Nicholas Fraser</li>
+<li><a href="#mpack">mpack</a>: Copyright &copy; 2015-2016 Nicholas Fraser</li>
 </ul>
 <hr>
 <a name="mpack"></a><h3>mpack: A C encoder/decoder for the MessagePack serialization format</h3>
