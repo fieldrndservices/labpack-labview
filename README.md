@@ -18,5 +18,5 @@ See the in-app LabVIEW Help system for more information and documentation about 
 
 ## License
 
-See the LICENSE.txt file for information about licensing and copyright.
+See the `docs` folder for all information about licensing and copyright.
 
