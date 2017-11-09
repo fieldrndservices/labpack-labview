@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-11-09 17:33:28" Creator="cfield" Comments="" ID="16b244630fa3b1209cacd1847c143c2a">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-11-09 17:40:48" Creator="cfield" Comments="" ID="c5ec881332b98d6ea3726b9087ec9d90">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LabPack</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>1.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -321,7 +321,7 @@
         <Path>..\src\Reader</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>97E3F4255B7D66672065E4F9AAC2FE74</GUID>
+      <GUID>262468369A1C22171D11DE6DCD5F3E90</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -426,7 +426,7 @@
         <Path>..\src\LabPack\Public\Utility\Status String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A9933826749569DD0BABD8E1490C7426</GUID>
+      <GUID>8092CAE4F7924623723563CB67B9D8B0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -951,7 +951,7 @@
         <Path>..\src\LabPack\Public\Writer\Public\Boolean\Write True.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B07A6FE4B13EEB71F20E56F12AC4EE3</GUID>
+      <GUID>D95F2DB3BCE769FA002A248667EB54FF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1490,7 +1490,7 @@
         <Path>..\src\LabPack\Public\Reader\Public\Status\Read Status.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>42F0304869A2641C7FA818C5C1BA9F9C</GUID>
+      <GUID>A4B9DE09C12E6DDB927AA2E7898B893C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
