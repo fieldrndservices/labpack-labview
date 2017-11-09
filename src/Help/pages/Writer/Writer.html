@@ -11,39 +11,159 @@
 <link media="print" rel="stylesheet" type="text/css" href="/styles/print.css">
 </head>
 <body bgcolor="#ffffff">
-
 <h1>Writer VIs</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="/pages/LabPack.html">LabPack</a></p>
 <p class="Body"><strong>Requires:</strong> LabPack</p>
 <p class="Body">Use the Reader VIs to more explicitly decode MessagePack data to LabVIEW types.</p>
 <table class="Bordered">
-    <tr>
-        <th class="Bordered Left-Align">Palette Object</th>
-        <th class="Bordered Left-Align">Description</th>
-    </tr>
-    <tr>
-        <td class="Bordered"><a href="Begin.html">Begin</a></td>
-        <td class="Bordered">Starts the internal decoder.</td>
-    </tr>
-    <tr>
-        <td class="Bordered"><a href="Create_Reference.html">Create Reference</a></td>
-        <td class="Bordered">Creates a Data Value Reference (DVR).</td>
-    </tr>
-    <tr>
-        <td class="Bordered"><a href="Create.html">Create</a></td>
-        <td class="Bordered">Creates an object of the Reader class.</td>
-    </tr>
-    <tr>
-        <td class="Bordered"><a href="Destroy_Reference.html">Destroy Reference</a></td>
-        <td class="Bordered">Destroys a Data Value Reference (DVR) of a Reader class object.</td>
-    </tr>
-    <tr>
-        <td class="Bordered"><a href="Destroy.html">Destroy</a></td>
-        <td class="Bordered">Destroys a Reader class object.</td>
-    </tr>
-    <tr>
-        <td class="Bordered"><a href="End.html">End</a></td>
-        <td class="Bordered">Finishes decoding MessagePack data.</td>
-    </tr>
+<tr>
+<th class="Bordered Left-Align">Palette Object</th>
+<th class="Bordered Left-Align">Description</th>
+</tr>
+<tr>
+<td class="Bordered"><a href="Begin.html">Begin</a></td>
+<td class="Bordered">Starts the internal decoder.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Begin_Array.html">Begin Array</a></td>
+<td class="Bordered">Starts writing an array.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Begin_Map.html">Begin Map</a></td>
+<td class="Bordered">Start writing a map.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Create.html">Create</a></td>
+<td class="Bordered">Creates an object of the Reader class.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Create_Reference.html">Create Reference</a></td>
+<td class="Bordered">Creates a Data Value Reference (DVR).</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Destroy.html">Destroy</a></td>
+<td class="Bordered">Destroys a Reader class object.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Destroy_Reference.html">Destroy Reference</a></td>
+<td class="Bordered">Destroys a Data Value Reference (DVR) of a Reader class object.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="End.html">End</a></td>
+<td class="Bordered">Finishes decoding MessagePack data.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="End_Array.html">End Array</a></td>
+<td class="Bordered">Finishes writing an array.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="End_Map.html">End Map</a></td>
+<td class="Bordered">Finishes writing an map.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Read_Data.html">Read Data</a></td>
+<td class="Bordered">Gets the MessagePack data in bytes from the internal encoder's buffer.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Read_Data_Size.html">Read Data Size</a></td>
+<td class="Bordered">Gets number of bytes of the MessagePack data from the internal encoder's buffer.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Read_Is_Error.html">Read Is Error</a></td>
+<td class="Bordered">Checks if the internal encoder has an error.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Read_Is_OK.html">Read Is OK</a></td>
+<td class="Bordered">Checks if the internal encoder is OK.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Read_Status.html">Read Status</a></td>
+<td class="Bordered">Gets the status of the internal encoder.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Read_Status_Message.html">Read Status Message</a></td>
+<td class="Bordered">Gets the status message of the internal encoder.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_Bin.html">Write Bin</a></td>
+<td class="Bordered">Writes and encodes a binary blob.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_Bool.html">Write Bool</a></td>
+<td class="Bordered">Writes and encodes a boolean.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_Double.html">Write Double</a></td>
+<td class="Bordered">Writes and encodes a double-precision (8-byte) floating point number.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_Ext.html">Write Ext</a></td>
+<td class="Bordered">Writes and encodes an extension type.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_False.html">Write False</a></td>
+<td class="Bordered">Writes and encodes a False boolean.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_Float.html">Write Float</a></td>
+<td class="Bordered">Writes and encodes a single-precision (4-byte) floating point number.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_I8.html">Write I8</a></td>
+<td class="Bordered">Writes and encodes a signed 8-bit integer.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_I16.html">Write I16</a></td>
+<td class="Bordered">Writes and encodes a signed 16-bit integer.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_I32.html">Write I32</a></td>
+<td class="Bordered">Writes and encodes a signed 32-bit integer.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_I64.html">Write I64</a></td>
+<td class="Bordered">Writes and encodes a signed 64-bit integer.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_Int.html">Write Int</a></td>
+<td class="Bordered">Writes and encodes a signed integer.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_Nil.html">Write Nil</a></td>
+<td class="Bordered">Writes and encodes a Nil.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_Object_Bytes.html">Write Object Bytes</a></td>
+<td class="Bordered">Writes an already encoded MessagePack object.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_Str.html">Write Str</a></td>
+<td class="Bordered">Writes and encodes a string.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_True.html">Write True</a></td>
+<td class="Bordered">Writes and encodes a string.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_U8.html">Write U8</a></td>
+<td class="Bordered">Writes and encodes an unsigned 8-bit integer.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_U16.html">Write U16</a></td>
+<td class="Bordered">Writes and encodes an unsigned 16-bit integer.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_U32.html">Write U32</a></td>
+<td class="Bordered">Writes and encodes an unsigned 32-bit integer.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_U64.html">Write U64</a></td>
+<td class="Bordered">Writes and encodes an unsigned 64-bit integer.</td>
+</tr>
+<tr>
+<td class="Bordered"><a href="Write_Uint.html">Write Uint</a></td>
+<td class="Bordered">Writes and encodes an unsigned integer.</td>
+</tr>
+</table>
 </body>
 </html>
