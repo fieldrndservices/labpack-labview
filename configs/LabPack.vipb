@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-11-09 16:14:01" Creator="cfield" Comments="" ID="2c3aacc3df3ade0e9d8b791830257d5f">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-11-09 16:21:00" Creator="cfield" Comments="" ID="bd10eeea68542d1498bfb55d82411f49">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LabPack</Package_File_Name>
-    <Library_Version>1.0.0.1</Library_Version>
+    <Library_Version>1.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -116,6 +116,18 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Help</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -126,6 +138,27 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>Help/images</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/pages</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/scripts</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/styles</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Index.hhk</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/LabPack.hhp</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help/Table of Contents.hhc</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\docs\LICENSE.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -281,7 +314,7 @@
         <Path>..\src\Reader</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8F9B5E04ACB389C0F283ACD9CD9D593</GUID>
+      <GUID>93BB77D9E7824BD3165CC64E9BA27823</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -386,7 +419,7 @@
         <Path>..\src\LabPack\Public\Utility\Status String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1180207AA24BE811F6952562BB408F09</GUID>
+      <GUID>164E1DF8122CD18F49D2D8DB9627908A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -911,7 +944,7 @@
         <Path>..\src\LabPack\Public\Writer\Public\Boolean\Write True.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C28DEE1E85E997096C45BBDE1D4AA30F</GUID>
+      <GUID>B82772138E169EB8A1DBF94060A0B76B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1450,7 +1483,7 @@
         <Path>..\src\LabPack\Public\Reader\Public\Status\Read Status.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>16EC6CC3232251D51FC06D6B65CD0325</GUID>
+      <GUID>BF9C935E98CDCBF8CC5AB4707E534C99</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
