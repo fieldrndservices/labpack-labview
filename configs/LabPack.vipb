@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-11-09 16:29:41" Creator="cfield" Comments="" ID="7d1670bc03808e621153fec9a7e810ae">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2015-07-19 16:42:56" Modified_Date="2017-11-09 16:55:59" Creator="cfield" Comments="" ID="faddd84f1ee6d22c441974e27dd02864">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LabPack</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -32,11 +32,9 @@
       <Copyright>Copyright (c) 2017, Field R&amp;D Services, LLC</Copyright>
       <Packager>Christopher R. Field</Packager>
       <URL>http://www.fieldrndservices.com/</URL>
-      <Release_Notes># Field R&amp;D Services: LabPack
+      <Release_Notes># [1.0.0] - 2017-11-13
 
-## [1.0.0] - 2017-11-13
-
-### Added
+## Added
 
 - Help documentation.
 - Descriptions to all controls and indicators for all public VIs.
@@ -53,7 +51,7 @@
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;vi.lib&gt;\Field R&amp;D Services</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -71,7 +69,7 @@
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;help&gt;\Field R&amp;D Services</Path>
       </Help_Files>
       <Template_VIs>
         <LLB>false</LLB>
@@ -117,14 +115,14 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Examples</Path>
-        <Destination>1</Destination>
+        <Path>LabPack.chm</Path>
+        <Destination>4</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Help</Path>
-        <Destination>4</Destination>
+        <Path>Examples</Path>
+        <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -158,6 +156,9 @@
       </Exclusions>
       <Exclusions>
         <Path>Help/Table of Contents.hhc</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Help</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\docs\LICENSE.txt</License_Agreement_Filepath>
@@ -314,7 +315,7 @@
         <Path>..\src\Reader</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA43BF96BC9B824548ACEC760CC97B5D</GUID>
+      <GUID>AEC1472E28857EAE727E3EA96358121E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -419,7 +420,7 @@
         <Path>..\src\LabPack\Public\Utility\Status String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E0ABD3E0B804108CAAB0746129A2E023</GUID>
+      <GUID>B0C862EAC06B92C6186180DBF9ADF751</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -944,7 +945,7 @@
         <Path>..\src\LabPack\Public\Writer\Public\Boolean\Write True.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD36A62D8D26AC2987ADF2C1E18876D0</GUID>
+      <GUID>0EB6210A2555FE11DB14A608CA107FBE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1483,7 +1484,7 @@
         <Path>..\src\LabPack\Public\Reader\Public\Status\Read Status.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8786AFB70CAAF17BCD1104CB7AF2B35F</GUID>
+      <GUID>867307D2C74045612A1B900F558A068E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
