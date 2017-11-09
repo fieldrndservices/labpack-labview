@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.01 transitional//en">
 <html>
 <head>
-<title>Destroy VI</title>
+<title>Write I16 VI</title>
 <meta name="author" content="Field R&D Services, LLC">
 <meta name="generator" content="G Development Environment">
 <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
@@ -13,21 +13,29 @@
 </head>
 <body bgcolor="#ffffff">
 <div id="styleDivTitle">
-<h1>Destroy VI</h1>
+<h1>Write I16 VI</h1>
 <p class="Body"><strong>Owning Palette:</strong> <a href="Writer.html">Writer VIs</a></p>
 <p class="Body"><strong>Requires:</strong> LabPack</p>
-<p class="Body">Destroys an object of the Writer class. This must be called when shutting down an application to avoid memory leaks. This may free resources.</p>
-<p class="Anchor"><img src="/images/LabPack_lvlib_Writer_lvclass_Destroyc.png" alt="Destroy VI"></p>
+<p class="Body">Writes and encodes a signed 16-bit integer to the MessagePack binary data format.</p>
+<p class="Anchor"><img src="/images/LabPack_lvlib_Writer_lvclass_Write_I16c.png" alt="Write I16 Vi"></p>
 </div>
 <div id="styleDivScrolling">
 <table class="Borderless">
 <tr>
 <td class="Icon"><img src="/images/cLabPack_lvlib_Writerlvclass.png" alt="cLabPack_lvlib_Writerlvclass"></td>
-<td><strong>Writer</strong> is a Writer class object for encoding LabVIEW types and values to MessagePack data.</td>
+<td><strong>Writer In</strong> is a Writer class object for encoding LabVIEW types and values to MessagePack data.</td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/cerrcodeclst.png" alt="cerrcodeclst"></td>
-<td><strong>Error In</strong> describes error conditions that occur before this node runs. With the following exception, this input provides standard error in functionality. <p>This node runs normally even if an error occurred before this node runs.</p></td>
+<td><strong>Error In</strong> describes error conditions that occur before this node runs. This input provides standard error in functionality.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/ci16.png" alt="ci16"></td>
+<td><strong>Value</strong> is the data for encoding to the signed 16-bit integer type.</td>
+</tr>
+<tr>
+<td class="Icon"><img src="/images/iLabPack_lvlib_Writerlvclass.png" alt="iLabPack_lvlib_Writerlvclass"></td>
+<td><strong>Writer Out</strong> is the Writer class object for encoding LabVIEW types and values to MessagePack data.</td>
 </tr>
 <tr>
 <td class="Icon"><img src="/images/ierrcodeclst.png" alt="ierrcodeclst"></td>
