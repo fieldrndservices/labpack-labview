@@ -35,29 +35,149 @@
 				<param name="Local" value="pages\Reader\Begin.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Create Reference">
-				<param name="Local" value="pages\Reader\Create_Reference.html">
+				<param name="Name" value="Begin Array">
+				<param name="Local" value="pages\Reader\Begin_Array.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Begin Bin">
+				<param name="Local" value="pages\Reader\Begin_Bin.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Begin Str">
+				<param name="Local" value="pages\Reader\Begin_Str.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Create">
 				<param name="Local" value="pages\Reader\Create.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Destroy Reference">
-				<param name="Local" value="pages\Reader\Destroy_Reference.html">
+				<param name="Name" value="Create Reference">
+				<param name="Local" value="pages\Reader\Create_Reference.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Destroy">
 				<param name="Local" value="pages\Reader\Destroy.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Destroy Reference">
+				<param name="Local" value="pages\Reader\Destroy_Reference.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="End">
 				<param name="Local" value="pages\Reader\End.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="End Array">
+				<param name="Local" value="pages\Reader\End_Array.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="End Bin">
+				<param name="Local" value="pages\Reader\End_Bin.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="End Map">
+				<param name="Local" value="pages\Reader\End_Map.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="End Str">
+				<param name="Local" value="pages\Reader\End_Str.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Bin">
+				<param name="Local" value="pages\Reader\Read_Bin.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Bool">
+				<param name="Local" value="pages\Reader\Read_Bool.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Bytes">
+				<param name="Local" value="pages\Reader\Read_Bytes.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Double">
+				<param name="Local" value="pages\Reader\Read_Double.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read False">
+				<param name="Local" value="pages\Reader\Read_False.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Float">
+				<param name="Local" value="pages\Reader\Read_Float.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read I8">
+				<param name="Local" value="pages\Reader\Read_I8.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read I16">
+				<param name="Local" value="pages\Reader\Read_I16.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read I32">
+				<param name="Local" value="pages\Reader\Read_I32.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read I64">
+				<param name="Local" value="pages\Reader\Read_I64.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Int">
+				<param name="Local" value="pages\Reader\Read_Int.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Is Error">
+				<param name="Local" value="pages\Reader\Read_Is_Error.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Is OK">
+				<param name="Local" value="pages\Reader\Read_Is_OK.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Nil">
+				<param name="Local" value="pages\Reader\Read_Nil.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Status">
+				<param name="Local" value="pages\Reader\Read_Status.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Status Message">
+				<param name="Local" value="pages\Reader\Read_Status_Message.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Str">
+				<param name="Local" value="pages\Reader\Read_Str.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read True">
+				<param name="Local" value="pages\Reader\Read_True.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read U8">
+				<param name="Local" value="pages\Reader\Read_U8.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read U16">
+				<param name="Local" value="pages\Reader\Read_U16.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read U32">
+				<param name="Local" value="pages\Reader\Read_U32.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read U64">
+				<param name="Local" value="pages\Reader\Read_U64.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Read Uint">
+				<param name="Local" value="pages\Reader\Read_Uint.html">
 				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Writer">
-            <param name="Local" value="pages\Writer\Writer.html">
+			<param name="Local" value="pages\Writer\Writer.html">
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
