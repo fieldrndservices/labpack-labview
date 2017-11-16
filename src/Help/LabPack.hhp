@@ -1,10 +1,10 @@
 [OPTIONS]
 Compatibility=1.1 or later
-Compiled file=..\LabPack.chm
+Compiled file=LabPack.chm
 Contents file=Table of Contents.hhc
 Default topic=pages\Readme.html
 Display compile progress=No
-Error log file=..\LabPack.log
+Error log file=LabPack.log
 Index file=Index.hhk
 Language=0x409 English (United States)
 Title=LabPack
