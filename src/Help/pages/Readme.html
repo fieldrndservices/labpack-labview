@@ -48,8 +48,9 @@
 <li>The <code>libs/LabPack</code> directory in the same parent directory containing the excutable or project</li>
 <li>The <code>data</code> directory in the same parent directory as the executable or project</li>
 <li>The directory of the parent VI</li>
-<li>The <code>src/LabPack/Private</code> folder where the shared library is distributed with the LabPack LabVIEW library</li>
+<li>The <code>src/LabPack/Private</code> folder, i.e. source code distribution location.</li>
 <li>The default system location for shared objects, i.e. on Unix-like systems this would be <code>/usr/lib</code>.</li>
+<li>The <code>&lt;vi.lib&gt;/Field R&amp;D Services/LabPack/Private/</code> folder, i.e. the VIPM distribution location.</li>
 </ul>
 <p>The easiest way to ensure the shared library is installed and discoverable by the LabVIEW library is to include the appropriate shared library in the build specification and place it in the default support directory, i.e. <code>data</code>, as this is included in the above list of search locations.</p>
 <p>The name of the shared library depends on the operating system and CPU. For Windows, the shared library is named either <code>labpack.dll</code> (for 32-bit environments) or <code>labpack-x64.dll</code> (for 64-bit environments). The shared library is named <code>liblabpack.dylib</code> for macOS, and it is named <code>liblabpack.so</code> for Linux. For NI Linux RT, the shared library is named either <code>liblabpack-rt.so</code> (for x86_64 CPUs) or <code>liblabpack-arm-rt.so</code> (for ARM CPUs).</p>
