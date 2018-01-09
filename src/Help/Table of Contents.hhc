@@ -327,42 +327,42 @@
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Utility">
-			<param name="Local" value="pages/Utility.html">
+			<param name="Local" value="pages\Utility\Utility.html">
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Status Code">
-				<param name="Local" value="pages/Status_Code.html">
+				<param name="Local" value="pages\Utility\Status_Code.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Status String">
-				<param name="Local" value="pages/Status_String.html">
+				<param name="Local" value="pages\Utility\Status_String.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Version Major">
-				<param name="Local" value="pages/Version_Major.html">
+				<param name="Local" value="pages\Utility\Version_Major.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Verison Minor">
-				<param name="Local" value="pages/Version_Minor.html">
+				<param name="Local" value="pages\Utility\Version_Minor.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Verison Patch">
-				<param name="Local" value="pages/Version_Patch.html">
+				<param name="Local" value="pages\Utility\Version_Patch.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Version Text">
-				<param name="Local" value="pages/Version_Text.html">
+				<param name="Local" value="pages\Utility\Version_Text.html">
 				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Controls">
-			<param name="Local" value="pages/Controls.html">
+			<param name="Local" value="pages\Controls\Controls.html">
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Status">
-				<param name="Local" value="pages/Statusctl.html">
+				<param name="Local" value="pages\Controls\Statusctl.html">
 				</OBJECT>
 		</UL>
 	</UL>
