@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file, which is wr
 ### Changed
 
 - On-disk organization of help files to match VI organization.
+- All help URLs to paths relative to the root location.
 
 ### Fixed
 
