@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file, which is wr
 
 ## [Unreleased][Unreleased]
 
+### Changed
+
+- On-disk organization of help files to match VI organization.
+
+### Fixed
+
+- Help file URLs for VIs.
+
 ## [1.0.0] - 2017-11-13
 
 ### Added
