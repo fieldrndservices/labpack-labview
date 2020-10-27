@@ -20,6 +20,14 @@ This LabVIEW library uses the [LabPack shared library](https://github.com/fieldr
 
 ## Example Usage
 
+A [VI snippet](http://www.ni.com/tutorial/9330/en/) of encoding a cluster to a MessagePack binary data:
+
+![Encoding a cluster to a MessagePack binary data](https://github.com/fieldrndservices/labpack-labview/blob/main/docs/encoding.png)
+
+A VI snippet of decoding a cluster from MessagePack binary data:
+
+![Decoding a cluster from MessagePack binary data](https://github.com/fieldrndservices/labpack-labview/blob/main/docs/decoding.png)
+
 ## Dependencies
 
 ### Installation
