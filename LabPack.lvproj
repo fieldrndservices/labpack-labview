@@ -34,7 +34,7 @@
 			<Item Name="Writer-Reader.vi" Type="VI" URL="../src/Examples/Writer-Reader.vi"/>
 		</Item>
 		<Item Name="Tests.lvlib" Type="Library" URL="../tests/Tests.lvlib"/>
-		<Item Name="Toolkit.lvlib" Type="Library" URL="../src/LabPack/Toolkit.lvlib"/>
+		<Item Name="Toolkit.lvlib" Type="Library" URL="../src/Toolkit/Toolkit.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
