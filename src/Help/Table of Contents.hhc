@@ -9,8 +9,8 @@
 </OBJECT>
 <UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="LabPack">
-		<param name="Local" value="pages\Readme.html">
+		<param name="Name" value="Preface">
+		<param name="Local" value="pages\Preface.html">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="VI and Control Reference">
