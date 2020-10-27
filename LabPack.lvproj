@@ -21,12 +21,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Configs" Type="Folder">
+		<Item Name="Configurations" Type="Folder">
 			<Item Name="LabPack.vipb" Type="Document" URL="../configs/LabPack.vipb"/>
 		</Item>
-		<Item Name="Docs" Type="Folder">
+		<Item Name="Documentation" Type="Folder">
 			<Item Name="CHANGELOG.md" Type="Document" URL="../docs/CHANGELOG.md"/>
 			<Item Name="LICENSE.txt" Type="Document" URL="../docs/LICENSE.txt"/>
+			<Item Name="README.md" Type="Document" URL="../README.md"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Simple.vi" Type="VI" URL="../src/Examples/Simple.vi"/>
