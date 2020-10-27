@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2020-10-27 16:22:24" Creator="cfield" Comments="" ID="5f95671c92a17dd62223703a049c2637">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-07-19 16:42:56" Modified_Date="2020-10-27 16:35:29" Creator="cfield" Comments="" ID="fbedb5b80d208aed4f6dabccfd482836">
   <Library_General_Settings>
     <Package_File_Name>Field_RnD_Services_LabPack</Package_File_Name>
     <Library_Version>1.1.0.13</Library_Version>
@@ -113,6 +113,18 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Help</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Help/LabPack.chm</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -128,6 +140,9 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace>Field_RnD_Services_LabPack_</Namespace>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>Help/LabPack.log</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\docs\LICENSE.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -213,7 +228,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>6B58C257D88A900608C55C8DA7132FAC</GUID>
+      <GUID>902B5DE7159F7650647FCE3229F3CDEE</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -234,7 +249,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>84D23A0472452841F5CE7745E5CDF98E</GUID>
+      <GUID>0D4A1CEA455DA6E7AA5D0919B6C453F7</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
