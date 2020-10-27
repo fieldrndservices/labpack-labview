@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file, which is wr
 
 - On-disk organization of help files to match VI organization.
 - All help URLs to paths relative to the root location.
+- README formatting to include example usage
 
 ### Fixed
 
