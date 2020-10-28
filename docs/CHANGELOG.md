@@ -6,12 +6,15 @@ All notable changes to this project will be documented in this file, which is wr
 
 ### Changed
 
+- VI Palette organization and icons
 - On-disk organization of help files to match VI organization.
 - All help URLs to paths relative to the root location.
 - README formatting to include example usage
+- Build process to use the Labricator tool
 
 ### Fixed
 
+- Loading dynamic library by path (See #1)
 - Help file URLs for VIs.
 
 ## [1.0.0] - 2017-11-13
